@@ -1,0 +1,337 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{hyperref}
+
+
+\name{Santiago Bragagnolo} % Your name
+	\address{6 Eugenio Perez \\ Madrid, 28048 } % Your address
+	\address{(+33)~$\cdot$~06~$\cdot$~95~$\cdot$~55~$\cdot$~37~$\cdot$~39 \\ santiagobragagnolo@gmail.com} % Your phone number and email
+\begin{document}
+
+
+
+
+\begin{rSection}{Contacto}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+	Skype & santiago.bragagnolo  \\
+	Linkedin & linkedin.com/in/santiagobragagnolo/  \\
+	Portfolio & santiagobragagnolo.info  \\
+	Github & github.com/sbragagnolo \\
+	SmalltalkHub & smalltalkhub.com/\#!/~sbragagnolo \\
+\end{tabular}
+
+\end{rSection}
+
+
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+
+\begin{rSection}{ Experticia t\'ecnica }
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Sistemas operativos & Ubuntu/Debian Linux \\
+Lenguajes de programaci\'on & Java, Javascript, Pharo,  Scala \\
+Application Middleware & Tomcat \\
+Robotics Middleware & ROS \\
+ORM&  Hibernate, Objectify \\
+Injecci\'on de dependencias &  Spring  \\
+Frameworks MVC  &  SpringMVC,  Grails \\
+Frameworks Web & JQuery/UI, Backbone.js, Underscore.js,  \\
+Frameworks Rob\'otica&  PhaROS, ROSCpp \\
+Bases de datos SQL & Oracle  \\
+Virtualizacion & Virtualbox \\
+Herramientas & Maven2, SVN, GIT, Eclipse \\
+Lenguajes de especificaci\'on & LaTex, UML \\
+
+\end{tabular}
+
+\end{rSection}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	METHODOLOGY STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+
+\begin{rSection}{Experticia de metodolog\'ias }
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+	Metodolog\'ia de trabajo & Scrum / KanBan  \\
+	Dise\~no de software & Domain Driven Design  \\
+	Desarrollo & Test driven development / Continuous Integration \\
+\end{tabular}
+
+\end{rSection}
+
+
+\begin{rSection}{Idiomas}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+	Espa\~nol & Nativo \\
+	Ingl\'es & Competencia escrita y oral profesional completa \\
+	Franc\'es & Competencia escrita y oral intermedia \\
+\end{tabular}
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experiencia}
+
+\begin{rSubsection}{Ecole des mines de Douai}{Septiembre 2012 - Marzo 2014}{Ingeniero investigador en Sistemas y Rob\'otica}{Douai, Nord-Pas-de-Calais}
+\item En este empleo estuve a cargo del proyecto RoboShop (http://car.mines-douai.fr/RoboShop), un sistema robotico capaz de guiar personas dentro de zonas desconocidas y concurridas. 
+\item Mis responsabilidades son planning, ingenier\'ia desarrollo y reportes del proyecto RoboShop y PhaROS (http://car.mines-douai.fr/PhaROS). 
+\item PhaROS es un framework para desarrollo de aplicaciones rob\'o ticas en Pharo Smalltalk, integrables en el middleware de rob\'otica ROS.  Respondiendo al Dr. Noury Bouraqadi (bouraqadi@gmail.com) y al Dr Luc Fabresse (luc.fabresse@gmail.com). 
+\item El proyecto RoboShop fue presentado en PICOM, VadConext ( contenidos relevantes en http://car.mines-douai.fr/2013/11/roboshop-demo-16oct2013/), dos jornadas de vanguardia comercial 
+\item El proyecto PhaROS fue presentado en las conferencias ESUG 2013 (http://www.esug.org/wiki/pier/Conferences/2013), y en FOSDEM 2014, (https://fosdem.org/2014/).
+\item Desde esta posici\'on laboral, tambi\'en pude desarroll\'e el proyecto TaskIT (http://smalltalkhub.com/\#!/~sbragagnolo/TaskIT), framework para el manejo de paralelismo y concurrencia en Pharo Smalltalk. Y actualmente disponible para el desarrollo empresarial, y con documentaci\'on formando parte del libro Pharo for enterprise (https://ci.inria.fr/pharo-contribution/job/PharoForTheEnterprise/lastSuccessfulBuild/artifact/TaskIT/TaskIT.pier.html)
+\item Las tecnolog\'ias utilizadas en el lado del robot son ROS, Pharo, C++, Python. Desde que el robot esta disponible en una intranet como un recurso, para el acceso de usuarios hay un servidor web, basado en las tecnolog\'ias Pharo y Seaside. La tecnologia cliente, Javascript + backbone.js + Underscore.js + html + css3 + bootstrap para lo que es dise\~o en general. 
+\item Finalmente para el framework, escrib\'i la documentaci\'on en formato libro, el cual est\'a actualmente en edici\'on, junto con reportes tecnol\'ogicos asociados al desarrollo.
+\end{rSubsection}
+
+
+%------------------------------------------------
+
+\begin{rSubsection}{Fanwards (http://www.fanwards.com/)}{Noviembre 2011 - August 2012}{Ingeniero de software, Gamification}{Ciudad de Buenos Aires, Argentine}
+\item A cargo del dise\~no e implementaci\'on de la aplicaci\'on web de Fanwards. Tanto frontend como backend. Trabajando con el CTO  (Claudio Fernandez claudiof@gmail.com) de la empresa.
+\item Para el front end, desarrollamos un cliente pesado, one-page, dependiendo de tecnolog\'ias como Backbone.js, jquery, underscore.js , mustache, HTML5, CSS3, y claro, la genialidad de nuestra dise\~nador.
+\item El backend corre en Google App Engine (GAE) Server, escrito en Scala \& Java,  dependiendo de tecnolog\'ias como Objectify (para el mapeo Objeto-GoogleBigTable), Spring MVC y RestFul para la definici\'on y disapatching de controllers (tanto para los usados por las aplicaciones web y mobiles como para los CRONS). Finalmente, para la integraci\'on con redes sociales, twitter4j y facebookRest.  
+\item En esta posici\'on laboral desarroll\'e un cliente completamente one-page, completamente basado en javascript, una librer\'ia funcional, que implementa comportamientos b\'asicos de haskell ( aplicaci\'on parcial, currificaci\'on, composici\'on de funciones, funciones de orden superior, etc), sumamente \'utiles para lo que es procesamiento de request AJAX. 
+\item Desde esta posici\'on tambi\'en desarroll\'e un social network crawler para analizar los comentarios de los usuarios acerca de las marcas (agregando algunas heur\'isticas para poder codificar el significado de cada comentario, como positivo, negativo, etc). 
+\item En esta posici\'on no solamente participe del dise\~no, arquitecutra y planning del software, sino que tambi\'en de todo lo que fue el proceso de gamification de la aplicaci\'on.
+\item Durante todo el proyecto, utilizamos con \'exito las t\'ecnicas de TDD e incorporamos Scala BDD. 
+\item En esta url \url{https://www.facebook.com/pages/Melee-Island-Inc/252598398140724?id=252598398140724&sk=app_232320516837452} se puede ver una instancia de la aplicaci\'on.
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Google summer of code}{Mayo 2012 - Septiembre 2012}{Inferencia de tipos de dato concretos en lenguajes din\'amicos}{Ciudad de Buenos Aires, Argentine}
+\item A cargo del dise\~no, investigaci\'on, ingenieria y planning. Respondiendo a mi mentor Nicolas Passerini (npasserini@gmail.com). 
+\item El proyecto esta basado en el proposal submiteado en esta url http://gsoc2012.esug.org/projects/type-inference 
+\item En este proyecto he implementado un inferenciador de sistemas de tipos para Pharo 1.4; Un analisador capaz de generar un grafo de m\'etodos a ser ejecutados ante una expresi\'on dada;  y un framework de logging orientado a objetos (que esta siendo usado en varios proyectos, PhaROS incluido). Tambi\'en tom\'e la responsabilidad de llevar un registro de evoluci\'on del proyecto en un blog. Este proyecto fue presentado en la conferencia internacional anual ESUG 2012 - Gent - (http://www.esug.org/wiki/pier/Conferences/2012) 
+\item Todo el proyecto esta bajo licencia MIT y accesible.
+\item Blog con progreso del proyecto - http://concretetypeinference.blogspot.fr/. 
+\item Concrete type inferencer y el call graph analyser (Kwisatz Haderach) - http://ss3.gemstone.com/ss/ConcreteTypeInference.html
+\item Object Logger - http://smalltalkhub.com/mc/sbragagnolo/PLP/main
+\end{rSubsection}
+
+ 
+\begin{rSubsection}{ESUG}{ Mayo 2011 - Septiembre 2011}{Developer en DBXTalk}{Ciudad de Buenos Aires, Argentine}
+\item En este proyecto fui el encargado del desarrollo de una soluci\'on de scaffolding para DBXTalk (DBXTools) y la automatizaci\'on de la configuraci\'on de Glorp framework.
+\item DBXTalk (http://dbxtalk.smallworks.com.ar/) es un bridge que da brinda a Pharo y Squeak smalltalk soporte para las base de datos mas populares. 
+\item Este proyecto, en conjunto con la migraci\'on del ORM Glorp (nativo de visual works) (by Guillermo Polito - guillermopolito@gmail.com) fueron presentados en ESUG 2011 - (http://www.esug.org/wiki/pier/Conferences/2011)
+\end{rSubsection}
+
+
+\begin{rSubsection}{Aufiero Inform\'atica}{Marzo 2011 - Noviembre 2011}{Ingeniero de software }{Ciudad de Buenos Aires, Argentine}
+\item Esta empresa se dedica a desarrollo de software a medida, y tambi\'en a la reventa de software de terceros, como AVG antivirus. 
+\item Desarrollo de plataforma de reventa, basada en tecnolog\'ia Groovy / Grails, y desarrollo de software de comunicaci\'on para integrar la plataforma con modulos legacy desarrollados en PHP.
+\item Desarrollo de application web para intranet para manejo de campa\~as de emails (utilizado para manejar las campa\~as de marketing de los productos que la empresa distribuye), con mail tracking, click tracking y an\'alisis de conversi\'on Basado en Javascript, Groovy, Grails y Jasper reports
+\item Desarrollo de sistema de env\'io de emails  hecho completamente en java, basado en Apache email. Liviano y barato para desplegar. Incluye tambi\'en  un modulo de balanceo de carga.
+\item Servicio single sign para nuestra suit de softwares - Hecho en groovy+grails+java security.
+\end{rSubsection}
+
+
+\begin{rSubsection}{Buscouniversidad .com}{Enero 2011 -  Marzo - 2011}{Developer \& dise\~ador de software y de base de datos}{Ciudad de Buenos Aires, Argentine}
+\item En este trabajo estuve a cargo de la definici\'on de la estructura de las tablas de la base de datos y de la arquitectura de la misma. Tuning de consultas SQL. El desarrollo de este sistema - directorio espec\'ifico para universidades esta basado hecho PHP, Zend framework, sphinx para el lado del servidor.  Javascript con JQuery para el cliente. 
+\item En este trabajo, tambi\'n desaroll\'e un comando en python para el reconocimiento de patrones en emails, para reconocer que emails est\'an relacionados con que campa\~a de marketing, si incluyen comentarios malos o buenos, etc. 
+\end{rSubsection}
+
+
+\begin{rSubsection}{Universidad Tecnologica Nacional (UTN)}{Marzo 2007 - July 2012}{Ayudante de Catedra en T\'ecnicas avanzadas de programaci\'on}{Ciudad de Buenos Aires, Argentina}
+\item Preparaci\'on y dictado de clases te\'oricas y pr\'acticas formando parte de un equipo docente interesado en la investigaci\'on. Los t\'opicos incluidos son
+\begin{itemize}
+	\item Programaci\'on orientada a objetos
+	\begin{itemize}
+		\item Patrones de dise\~no
+		\item Metodolog\'ias TDD/BDD, DDD, Agile, Scrum
+		\item Re-factors
+		\item Meta programaci\'on
+	\end{itemize}
+	\item Arquitecturas b\'asicas
+	\item Tecnolog\'ias 
+	\begin{itemize}
+		\item Maven 
+		\item IDEs (Eclipse)
+		\item JUnit
+		\item SVN \& GIT
+	\end{itemize}
+	\item Lenguajes din\'amicos
+	\begin{itemize}
+		\item  Python
+		\item  Smalltalk
+		\item  Self
+	\end{itemize}
+	\item Lenguajes compilados
+	\begin{itemize}
+		\item  Java
+		\item  Scala
+	\end{itemize}
+
+	\item Aplicaci\'on de conceptos modernos
+	\begin{itemize}
+		\item Traits y Mixins
+		\item  Lambdas / anonymous functions
+		\item DSL
+	\end{itemize}
+\end{itemize}
+\end{rSubsection}
+
+\begin{rSubsection}{Universidad Tecnologica Nacional (UTN)}{Marzo 2007 - December 2011}{Ayudante de Catedra en Paradigmas de programaci\'on}{Ciudad de Buenos Aires, Argentine}
+\item Preparaci\'on y dictado de clases te\'oricas y pr\'acticas formando parte de un equipo docente interesado en la investigaci\'on. Los t\'opicos incluidos son
+\begin{itemize}
+	\item Paradigma orientado a objetos
+	\begin{itemize}
+		\item Pharo Smalltalk
+		\item Squeak Smalltalk
+		\item Dolphin smalltalk
+	\end{itemize}
+	\item Paradigma funcional
+	\begin{itemize}
+		\item Haskell - GHC
+		\item Haskell - WinHugs
+	\end{itemize}
+	\item Paradigma l\'ogico
+	\begin{itemize}
+		\item  Swi prolog
+	\end{itemize}
+\end{itemize}
+\end{rSubsection}
+
+
+\begin{rSubsection}{Aufiero Informatica}{Marzo 2007 - December 2010/ }{Desarrollo de sistemas de  }{Ciudad de Buenos Aires, Argentine}
+\item En esta empresa estuve a cargo de muchos projectos distintos,  de programador llano a arquitecto, pasando por todas las etapas de desarrollo de un producto.
+
+\item Los siguientes son los projectos en los que estuve y mi rol 
+\item Proyecto- Las ca\~nas Tennis club, Buenos Aires
+	\begin{itemize}
+		\item  Objetivos - Sistema de manejo de canchas de tennis con modulos de stock, manejo de precios, venta de productos, reserva de canchas y contabilidad; con acceso intranet. 
+		\item Responsabilidades - Dise\~no de software y desarrollo.
+		\item Tecnolog\'ias - Java 6, Flex 3.1, Javascript, PostgreSQL, Hibernate, Spring, BlazeDS, JasperReports, iReports. JUnit, Jenkins.
+	\end{itemize} - 
+\item Editorial Oceano - Software de gesti\'on integral 
+	\begin{itemize}
+		\item  Objetivos - Sistema de gesti\'on para editoriales. Con modulos de finanzas, contabilidad, stock, ventas, consignaciones, compras, agenda, usuarios, auditor\'ia.
+		\item Responsabilidades - Analisis de requerimientos, desarrollo y adaptaci\'on de nuevas funciones. Administraci\'on de base de datos.
+		\item Tecnolog\'ias -  Visual Basic, C\# (.net 3.0/3.5), ADO, SQL Server, Crystal reports.
+	\end{itemize} -
+\item La prensa - gesti\'on de clasificados
+	\begin{itemize}
+		\item  Objetivos - Sistema modularizado para gesti\'on de clasificados. Usuarios, manejo de clasificados, gesti\'on de pagina (para las impresiones), auditor\'ia, venta.
+		\item Responsabilidades - Dise\~no, desarrollo, y mantenimiento
+		\item Tecnolog\'ias -  C\# 3.5, NHibernate, PostgreSQL, NUnit
+	\end{itemize} 
+
+\item Facturaci\'on online de productos fotogr\'agicos
+	\begin{itemize}
+		\item  Objetivos - Desarrollo de sitio para facturaci\'on online. Modulo de facturas, modulo de usuarios,
+		\item Responsabilidades -  Dise\~no, desarrollo
+		\item Tecnolog\'ias -  PHP, CakePHP, Javascript, CSS, JQuery, MySql, Selenium
+	\end{itemize}
+ 
+
+\item Facturaci\'on online de productos fotogr\'agicos
+	\begin{itemize}
+		\item  Objetivos - Desarrollo de sitio para facturaci\'on online. Modulo de facturas, modulo de usuarios,
+		\item Responsabilidades -  Dise\~no, desarrollo
+		\item Tecnolog\'ias -  PHP, CakePHP, Javascript, CSS, JQuery, MySql, Selenium
+	\end{itemize}
+
+
+\end{rSubsection}
+
+
+\begin{rSubsection}{MSA}{Mayo 2006 - Octubre 2006}{DBA Oracle 9i \& Postgres SQL - Programador PHP/Python}{Ciudad de Buenos Aires, Argentine}
+\item En esta empresa mi rol era el de Administrador de bases de datos para el segundo sistema de ventas de tickets mas grande de Argentina (http://viaticket.com.ar/), trabajando en performance y seguridad de datos. Usando tecnicas basadas en stored outlines, sql tunning y memory management para performance, y RMAN incremental backups y arquitectura oracle stand by database para mejor disponibilidad.
+\item Implementaci\'on de base de datos para sistemas de votaci\'on electr\'onica, arquitectura f\'isica y l\'ogica.
+\item Desarrollo de extensiones menores en projectos internos en PHP y Python
+\end{rSubsection}
+
+
+\begin{rSubsection}{Fundacion Proydesa}{Marzo 2006 - Noviembre 2007}{Instructor Oracle DBA }{Ciudad de Buenos Aires, Argentine}
+\item Instructor de los modulos certificables de Oracle 9i y 10g
+\item SQL (M\'odulo 1)
+\item Arquitectura (M\'odulo 2)
+\item Tuning (M\'odulo 4)
+\item Estuve tambi\'en a cargo de la instrucci\'on de nuevos instructores de los m\'odulos 1 y 2.
+\end{rSubsection}
+
+\begin{rSubsection}{Research for decision}{Enero 2005 - Noviembre 2005}{Programador}{Ciudad de Buenos Aires, Argentine}
+\item En esta empresa mi responsabilidad principal era el desarrollo de encuestas para an\'alisis de mercado v\'ia telef\'onica en el lenguaje de programaci\'on EOLE/Saxophone.
+\item Tambien estaba a cargo de mantenimiento de servers (Novell, SuSe linux y windows server 2000) y de la red.
+\end{rSubsection}
+
+\begin{rSubsection}{Trabajos independientes}{2002 - 2009}{Programador, Dise\~nador, Arquitecto, DBA \& Manejo de clientes}{Ciudad de Buenos Aires, Argentina}
+\item  Noviembre 2002 a Julio 2003 - Sistema de manejo de recetas y stock para preparados de nutrici\'on parenteral para un laboratorio (UNANUT - Argentina) -  Visual Basic \& Microsoft Access ( Con soporte hasta 2005) 
+\item  Junio 2003 a Agosto 2003 - Sistema de manejo de stock para fabrica de cajas  - Visual Basic \& Microsoft Access ( Con soporte hasta 2004) 
+\item  Julio 2009 a Marzo 2010 - Sistema de manejo de certificaciones, cursos y cr\'editos para la FACPCE (federaci\'on Argentina de Consejos Profesionales de Ciencias Econ\'omicas -  PHP, Javascript, JQuery (http://www.facpce.org.ar/)  (Soportado hasta 2011)
+\end{rSubsection}
+
+
+
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Educaci\'on}
+{\bf Universidad Nacional de Educacion a Distancia  - Madrid - Espa\~na } \hfill {\em Enero 2013 - Actualmente estudiando} \\ 
+Ingenier\'a inform\'atica  \\
+
+
+{\bf Universidad Tecnologica Nacional (UTN) - Ciudad de Buenos Aires - Argentina } \hfill {\em Enero 2004 - 2011 (Inconclusa)} \\ 
+Ingenier\'a en sistemas  - 70 por ciento de la carrera  (3,5 a\~nos de 5) \\
+
+{\bf Ing. Otto Krause - Ciudad de Buenos Aires - Argentina} \hfill {\em Diciembre 2001} \\ 
+T\'ecnico en computaci\'on \\
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
