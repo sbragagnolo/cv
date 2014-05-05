@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.11)  30 APR 2014 14:23
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.11)  5 MAY 2014 12:58
 entering extended mode
  %&-line parsing enabled.
 **"CV-ES Santiago.tex"
@@ -169,20 +169,20 @@ File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
 ) (./CV-ES Santiago.aux)
 \openout1 = `"CV-ES Santiago.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 *geometry auto-detecting driver*
 *geometry detected driver: pdftex*
@@ -225,7 +225,7 @@ driver: pdftex
 
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
-Package hyperref Info: Link coloring OFF on input line 32.
+Package hyperref Info: Link coloring OFF on input line 34.
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
@@ -234,8 +234,8 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count97
 )
-LaTeX Info: Redefining \ref on input line 32.
-LaTeX Info: Redefining \pageref on input line 32.
+LaTeX Info: Redefining \ref on input line 34.
+LaTeX Info: Redefining \pageref on input line 34.
 
 (./CV-ES Santiago.out) (./CV-ES Santiago.out)
 \@outlinefile=\write3
@@ -243,24 +243,24 @@ LaTeX Info: Redefining \pageref on input line 32.
 
 \AtBeginShipoutBox=\box26
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 32.
+(Font)              <10.95> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 32.
+(Font)              <8> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 32.
+(Font)              <6> on input line 34.
 
-Overfull \hbox (30.0pt too wide) in paragraph at lines 32--32
+Overfull \hbox (30.0pt too wide) in paragraph at lines 34--34
 [] 
  []
 
 
-Overfull \hbox (6.23601pt too wide) in paragraph at lines 117--118
+Overfull \hbox (6.23601pt too wide) in paragraph at lines 120--121
 []\OT1/cmr/m/n/10.95 El proyecto Ro-boShop fue pre-sen-tado en PI-COM, Vad-Cone
 xt ( con-tenidos rel-e-vantes en http://car.mines-
  []
 
 
-Overfull \hbox (77.15015pt too wide) in paragraph at lines 118--119
+Overfull \hbox (77.15015pt too wide) in paragraph at lines 121--122
 []\OT1/cmr/m/n/10.95 El proyecto PhaROS fue pre-sen-tado en las con-fer-en-cias
  ESUG 2013 (http://www.esug.org/wiki/pier/Conferences/2013),
  []
@@ -268,62 +268,62 @@ Overfull \hbox (77.15015pt too wide) in paragraph at lines 118--119
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (19.77025pt too wide) in paragraph at lines 119--120
+Overfull \hbox (19.77025pt too wide) in paragraph at lines 122--123
 []\OT1/cmr/m/n/10.95 Desde esta posici^^Son lab-o-ral, tambi^^Sen pude de-sar-r
 oll^^Se el proyecto TaskIT (http://smalltalkhub.com/#!/ sbra-
  []
 
 
-Overfull \hbox (194.4546pt too wide) in paragraph at lines 119--120
+Overfull \hbox (194.4546pt too wide) in paragraph at lines 122--123
 \OT1/cmr/m/n/10.95 Pharo for en-ter-prise (https://ci.inria.fr/pharo-contributi
 on/job/PharoForTheEnterprise/lastSuccessfulBuild/artifact/TaskIT/TaskIT.pier.ht
 ml) 
  []
 
 
-Overfull \hbox (59.09058pt too wide) in paragraph at lines 135--136
+Overfull \hbox (59.09058pt too wide) in paragraph at lines 138--139
 []\OT1/cmr/m/n/10.95 En esta url []$\OT1/cmtt/m/n/10.95 https : / / www . faceb
 ook . com / pages / Melee-[]Island-[]Inc / 252598398140724 ? id = 2525983981407
 24&sk =
  []
 
 
-Overfull \hbox (25.76233pt too wide) in paragraph at lines 143--144
+Overfull \hbox (25.76233pt too wide) in paragraph at lines 146--147
 \OT1/cmr/m/n/10.95 en la con-fer-en-cia in-ter-na-cional an-ual ESUG 2012 - Gen
 t - (http://www.esug.org/wiki/pier/Conferences/2012) 
  []
 
 [2]
-Overfull \hbox (113.7591pt too wide) in paragraph at lines 146--147
+Overfull \hbox (113.7591pt too wide) in paragraph at lines 149--150
 []\OT1/cmr/m/n/10.95 Concrete type in-fer-encer y el call graph anal-yser (Kwis
 atz Hader-ach) - http://ss3.gemstone.com/ss/ConcreteTypeInference.html 
  []
 
 
-Overfull \hbox (98.38226pt too wide) in paragraph at lines 154--155
+Overfull \hbox (98.38226pt too wide) in paragraph at lines 157--158
 \OT1/cmr/m/n/10.95 Polito - guiller-mopolito@gmail.com) fueron pre-sen-ta-dos e
 n ESUG 2011 - (http://www.esug.org/wiki/pier/Conferences/2011) 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 176.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 179.
 
 (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 176.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 179.
  [3] [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 313--315
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 317--319
+Underfull \hbox (badness 10000) in paragraph at lines 316--318
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 320--322
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--325
 
  []
 
@@ -342,7 +342,7 @@ ts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx1
 share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf
 -texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fo
 nts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "CV-ES Santiago.pdf" (6 pages, 119055 bytes).
+Output written on "CV-ES Santiago.pdf" (6 pages, 119109 bytes).
 PDF statistics:
  59 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)

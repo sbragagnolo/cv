@@ -57,7 +57,7 @@
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
 Sistemas operativos & Ubuntu/Debian Linux \\
-Lenguajes de programaci\'on & Java, Javascript, Pharo,  Scala \\
+Lenguajes de programaci\'on & Java, Javascript, Pharo,  Scala, SQL \\
 Application Middleware & Tomcat \\
 Robotics Middleware & ROS \\
 ORM&  Hibernate, Objectify \\

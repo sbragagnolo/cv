@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.11)  30 APR 2014 14:49
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.11)  5 MAY 2014 12:58
 entering extended mode
  %&-line parsing enabled.
 **"CV-EN Santiago.tex"
@@ -169,20 +169,20 @@ File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
 ) (./CV-EN Santiago.aux)
 \openout1 = `"CV-EN Santiago.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 *geometry auto-detecting driver*
 *geometry detected driver: pdftex*
@@ -225,7 +225,7 @@ driver: pdftex
 
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
-Package hyperref Info: Link coloring OFF on input line 33.
+Package hyperref Info: Link coloring OFF on input line 34.
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
@@ -234,8 +234,8 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count97
 )
-LaTeX Info: Redefining \ref on input line 33.
-LaTeX Info: Redefining \pageref on input line 33.
+LaTeX Info: Redefining \ref on input line 34.
+LaTeX Info: Redefining \pageref on input line 34.
 
 (./CV-EN Santiago.out) (./CV-EN Santiago.out)
 \@outlinefile=\write3
@@ -243,62 +243,62 @@ LaTeX Info: Redefining \pageref on input line 33.
 
 \AtBeginShipoutBox=\box26
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 33.
+(Font)              <10.95> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 33.
+(Font)              <8> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 33.
+(Font)              <6> on input line 34.
 
-Overfull \hbox (30.0pt too wide) in paragraph at lines 33--33
+Overfull \hbox (30.0pt too wide) in paragraph at lines 34--34
 [] 
- []
-
-
-Overfull \hbox (16.94267pt too wide) in paragraph at lines 119--120
-[]\OT1/cmr/m/n/10.95 The project Ro-boShop was pre-sented in Pi-com and Vad Con
-ext 2013 (Some con-tent about http://car.mines-
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (46.163pt too wide) in paragraph at lines 136--137
+Overfull \hbox (16.94267pt too wide) in paragraph at lines 121--122
+[]\OT1/cmr/m/n/10.95 The project Ro-boShop was pre-sented in Pi-com and Vad Con
+ext 2013 (Some con-tent about http://car.mines-
+ []
+
+
+Overfull \hbox (46.163pt too wide) in paragraph at lines 138--139
 \OT1/cmtt/m/n/10.95 facebook . com / pages / Melee-[]Island-[]Inc / 25259839814
 0724 ? id = 252598398140724&sk = app _ 232320516837452$[] 
  []
 
 
-Overfull \hbox (132.92162pt too wide) in paragraph at lines 146--147
+Overfull \hbox (132.92162pt too wide) in paragraph at lines 148--149
 []\OT1/cmr/m/n/10.95 Concrete type in-fer-encer and the call graph anal-yser (K
 wisatz Hader-ach) - http://ss3.gemstone.com/ss/ConcreteTypeInference.html 
  []
 
 [2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 176.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 178.
 
  (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 176.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 178.
  [3] [4]
-Overfull \hbox (47.93494pt too wide) in paragraph at lines 264--265
+Overfull \hbox (47.93494pt too wide) in paragraph at lines 266--267
 []\OT1/cmr/m/n/10.95 July 2009 to March 2010 - Cer-ti-fi-ca-tion and courses ma
 n-age-ment sys-tem SFAP - PHP (http://www.facpce.org.ar/)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--280
+Underfull \hbox (badness 10000) in paragraph at lines 280--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--284
+Underfull \hbox (badness 10000) in paragraph at lines 284--286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--287
+Underfull \hbox (badness 10000) in paragraph at lines 287--289
 
  []
 
@@ -310,14 +310,14 @@ Here is how much of TeX's memory you used:
  7109 multiletter control sequences out of 15000+50000
  7807 words of font info for 28 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 38i,6n,21p,477b,523s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,6n,21p,477b,527s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx1
 2.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
 share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf
 -texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fo
 nts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "CV-EN Santiago.pdf" (5 pages, 114247 bytes).
+Output written on "CV-EN Santiago.pdf" (5 pages, 114271 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)

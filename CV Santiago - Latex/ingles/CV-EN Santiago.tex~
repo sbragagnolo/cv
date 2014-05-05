@@ -26,10 +26,9 @@
 \usepackage{hyperref}
 
 
-
 \name{Santiago Bragagnolo} % Your name
-	\address{6 Eugenio Perez \\ Madrid, 28048 } % Your address
-	\address{(+34)~$\cdot$~6~$\cdot$~04~$\cdot$~10~$\cdot$~69~$\cdot$~38 \\ santiagobragagnolo@gmail.com} % Your phone number and
+\address{6 Eugenio Perez \\ Madrid, 28048 } % Your address
+\address{(+33)~$\cdot$~06~$\cdot$~95~$\cdot$~55~$\cdot$~37~$\cdot$~39 \\ santiagobragagnolo@gmail.com} % Your phone number and email
 
 \begin{document}
 
@@ -42,25 +41,70 @@
 	Skype & santiago.bragagnolo  \\
 	Linkedin & linkedin.com/in/santiagobragagnolo/  \\
 	Portfolio & santiagobragagnolo.info  \\
-	Blog & knowledgeconvergence.wordpress.com  \\
 	Github & github.com/sbragagnolo \\
 	SmalltalkHub & smalltalkhub.com/\#!/~sbragagnolo \\
 \end{tabular}
 
 \end{rSection}
 
+
 %----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
+%	TECHNICAL STRENGTHS SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Education}
 
-{\bf Universidad Tecnologica Nacional (UTN) - Ciudad de Buenos Aires - Argentine} \hfill {\em Janvier 2004 - 2011 (Inconcluse)} \\ 
-Software Engineer - J'ai course  3 first years and part of the forth  (Of 5 years of career) \\
+\begin{rSection}{Technical Strengths}
 
-{\bf Ing. Otto Krause - Ciudad de Buenos Aires - Argentina} \hfill {\em December 2001} \\ 
-Technic in computation \\
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Operative system & Ubuntu/Debian Linux, Windows XP/7, Mac OS Mountain Lion \\
+Computer Languages & Java, Scala, Javascript, C\#, Pharo, C, C++, Python, SQL  \\
+Application Middleware & Tomcat, JBoss \\
+Robotics Middleware & ROS \\
+ORM Frameworks &  Hibernate, nHibernate, Objectify \\
+DI Frameworks &  Spring  \\
+MVC Frameworks &  SpringMVC, Grails \\
+Client Frameworks & Backbone.js, Underscore.js, \\
+Robotic Frameworks &  PhaROS, ROSCpp, ROSPy \\
+Databases & MySQL, PostgreSQL, Oracle, SQLServer  \\
+Virtualization & Virtualbox \\
+Tools & Maven, SVN, GIT, Eclipse \\
+Writing & LaTex, Markdown \\
+\end{tabular}
+
 \end{rSection}
+
+\begin{rSection}{Methodology Strengths}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+	Working methodologies & Scrum / KanBan  \\
+	Software design & Domain Driven Design  \\
+	Development  & Test driven development / Continuous Integration \\
+\end{tabular}
+
+\end{rSection}
+
+
+\begin{rSection}{Yet unusual experiences}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+	Gamification  & Fanwards.com \\
+	Indoor robotics  & Ecole des mines de Douai \\
+\end{tabular}
+
+\end{rSection}
+
+
+\begin{rSection}{Idiomas}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+	Spanish & Native \\
+	English & Written and spoken professional competence \\
+	French & Written and spoken basic competence \\
+\end{tabular}
+
+\end{rSection}
+
+
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
@@ -113,7 +157,7 @@ Technic in computation \\
 
 \begin{rSubsection}{Aufiero Informatica}{March 2011 - November 2011}{Software architect, designer \& developer}{Ciudad de Buenos Aires, Argentine}
 \item This company is a small software factory and AVG antivirus reseller for latino america. I worked two times in this enterprise, look down in previous experiences to look my progress
-\item Reseller /Partner management system based on Groovy on Grails technology and communicating to software legacy done in PHP.
+\item Reseller/Partner management system based on Groovy on Grails technology and communicating to software legacy done in PHP.
 \item Mail campaign web system for internal usage (For AVG campaigns). Done in Groovy and Grails / Jasper reports
 \item Email send system multi-engine, auto-deployable with load balance and mail tracking. Done in Groovy and Java, using Apache Email. 
 \item Single sign on system for our different platforms - Done in Groove and grails.
@@ -182,7 +226,7 @@ Technic in computation \\
 
 
 
-\begin{rSubsection}{Aufiero Informatica}{March 2007 - December 2010}{Software designer \& developer}{Ciudad de Buenos Aires, Argentine}
+\begin{rSubsection}{Aufiero Informatica}{March 2007 - December 2010}{Software designer \& developer - Project manager }{Ciudad de Buenos Aires, Argentine}
 \item In this company i had being in several projects, always as software designer and developer, and in the last year also as architect. 
 \item The followings are the project i did and my role
 \item Accountant management system - Designer and developer - Java, Flex 3.1 JBoss
@@ -225,29 +269,21 @@ Technic in computation \\
 
 \end{rSection}
 
+
 %----------------------------------------------------------------------------------------
-%	TECHNICAL STRENGTHS SECTION
+%	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
+\begin{rSection}{Education}
+{\bf Universidad Nacional de Educacion a Distancia  - Madrid - Spain } \hfill {\em January 2013 - Currently Studying} \\ 
+Software Engineer - Waiting for recognition of previous study, coursing also three topics \\
 
-\begin{rSection}{Technical Strengths}
 
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Operative system & Ubuntu, Fedora, Windows XP, Windows 7, Mac OS Mountain Lion \\
-Computer Languages & Java, Scala, Javascript, C\#, Pharo, C, C++, Python  \\
-Application Middleware & Tomcat, JBoss \\
-Robotics Middleware & ROS \\
-ORM Frameworks &  Hibernate, nHibernate, Objectify \\
-DI Frameworks &  Spring  \\
-MVC Frameworks &  SpringMVC, Grails \\
-Client Frameworks & Backbone.js, Underscore.js, \\
-Robotic Frameworks &  PhaROS, ROSCpp, ROSPy \\
-Databases & MySQL, PostgreSQL, Oracle, SQLServer  \\
-Virtualization & Virtualbox \\
-Tools & SVN, GIT, Eclipse \\
-Writing & LaTex, Markdown \\
-\end{tabular}
+{\bf Universidad Tecnologica Nacional (UTN) - Ciudad de Buenos Aires - Argentine} \hfill {\em January 2004 - 2011 (Inconcluse)} \\ 
+Software Engineer - Coursed 3 first years and part of the forth  (Of 5 years of career) \\
 
+{\bf Ing. Otto Krause - Ciudad de Buenos Aires - Argentina} \hfill {\em December 2001} \\ 
+Technic in computation \\
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
