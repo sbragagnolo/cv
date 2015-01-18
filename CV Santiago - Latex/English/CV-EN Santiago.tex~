@@ -49,26 +49,84 @@
 
 \end{rSection}
 
+
 %----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
+%	TECHNICAL STRENGTHS SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Education}
 
-{\bf Universidad Tecnologica Nacional (UTN) - Ciudad de Buenos Aires - Argentine} \hfill {\em Janvier 2004 - 2011 (Inconcluse)} \\ 
-Software Engineer - J'ai course  3 first years and part of the forth  (Of 5 years of career) \\
+\begin{rSection}{Technical Strengths}
 
-{\bf Ing. Otto Krause - Ciudad de Buenos Aires - Argentina} \hfill {\em December 2001} \\ 
-Technic in computation \\
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Operative system & Ubuntu/Debian Linux, Windows XP/7, Mac OS Mountain Lion \\
+Computer Languages & Java, Scala, Javascript, C\#, Pharo, C, C++, Python, SQL  \\
+Application Middleware & Tomcat, JBoss \\
+Robotics Middleware & ROS \\
+ORM Frameworks &  Hibernate, nHibernate, Objectify \\
+DI Frameworks &  Spring  \\
+MVC Frameworks &  SpringMVC, Grails \\
+Client Frameworks & Backbone.js, Underscore.js, \\
+Robotic Frameworks &  PhaROS, ROSCpp, ROSPy \\
+Databases & MySQL, PostgreSQL, Oracle, SQLServer  \\
+Virtualization & Virtualbox \\
+Tools & Maven, SVN, GIT, Eclipse \\
+Writing & LaTex, Markdown \\
+\end{tabular}
+
 \end{rSection}
+
+\begin{rSection}{Methodology Strengths}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+	Working methodologies & Scrum / KanBan  \\
+	Software design & Domain Driven Design  \\
+	Development  & Test driven development / Continuous Integration \\
+\end{tabular}
+
+\end{rSection}
+
+
+\begin{rSection}{Yet unusual experiences}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+	Gamification  & Fanwards.com \\
+	Indoor robotics  & Ecole des mines de Douai \\
+\end{tabular}
+
+\end{rSection}
+
+
+\begin{rSection}{Idiomas}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+	Spanish & Native \\
+	English & Written and spoken professional competence \\
+	French & Written and spoken basic competence \\
+\end{tabular}
+
+\end{rSection}
+
+
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
+
+
+
 \begin{rSection}{Experience}
 
-\begin{rSubsection}{Ecole des mines de Douai}{September 2012 - Present}{Software Engineer, Robotics}{Douai, Nord-Pas-de-Calais}
+\begin{rSubsection}{Ericsson}{May 2014 - Present}{ Senior Java and C++ developer }{Málaga, Spain}
+\item ERA (Ericsson ran analyzer) Project. C++ and Java based high-performance client
+\item TPS (Trace processor server) Project. Java high-performance server for trace processing (system that faces problems of teras of data)
+\item ODG (OSS Data gateway) Project. Project that analyze data from OSS servers. Also Java high-performancer server. 
+\item TDD and Continuous delivery evangalizer.
+\end{rSubsection}
+
+
+
+\begin{rSubsection}{Ecole des mines de Douai}{September 2012 - February 2014}{Software Engineer, Robotics}{Douai, Nord-Pas-de-Calais}
 \item I am in charge of the development of the project RoboShop (http://car.mines-douai.fr/RoboShop), a robotic system for aiding persons to navigate into unknown spaces. 
 \item My responsibilities are planning, engineering, development and technologic report writing for the projects RoboShop and PhaROS (http://car.mines-douai.fr/PhaROS). 
 \item PhaROS is a framework for developing robot solutions for Pharo Smalltalk on the robotic middleware ROS. 
@@ -113,7 +171,7 @@ Technic in computation \\
 
 \begin{rSubsection}{Aufiero Informatica}{March 2011 - November 2011}{Software architect, designer \& developer}{Ciudad de Buenos Aires, Argentine}
 \item This company is a small software factory and AVG antivirus reseller for latino america. I worked two times in this enterprise, look down in previous experiences to look my progress
-\item Reseller /Partner management system based on Groovy on Grails technology and communicating to software legacy done in PHP.
+\item Reseller/Partner management system based on Groovy on Grails technology and communicating to software legacy done in PHP.
 \item Mail campaign web system for internal usage (For AVG campaigns). Done in Groovy and Grails / Jasper reports
 \item Email send system multi-engine, auto-deployable with load balance and mail tracking. Done in Groovy and Java, using Apache Email. 
 \item Single sign on system for our different platforms - Done in Groove and grails.
@@ -182,7 +240,7 @@ Technic in computation \\
 
 
 
-\begin{rSubsection}{Aufiero Informatica}{March 2007 - December 2010}{Software designer \& developer}{Ciudad de Buenos Aires, Argentine}
+\begin{rSubsection}{Aufiero Informatica}{March 2007 - December 2010}{Software designer \& developer - Project manager }{Ciudad de Buenos Aires, Argentine}
 \item In this company i had being in several projects, always as software designer and developer, and in the last year also as architect. 
 \item The followings are the project i did and my role
 \item Accountant management system - Designer and developer - Java, Flex 3.1 JBoss
@@ -225,29 +283,21 @@ Technic in computation \\
 
 \end{rSection}
 
+
 %----------------------------------------------------------------------------------------
-%	TECHNICAL STRENGTHS SECTION
+%	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
+\begin{rSection}{Education}
+{\bf Universidad Nacional de Educacion a Distancia  - Madrid - Spain } \hfill {\em January 2013 - Currently Studying} \\ 
+Software Engineer - Waiting for recognition of previous study, coursing also three topics \\
 
-\begin{rSection}{Technical Strengths}
 
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Operative system & Ubuntu, Fedora, Windows XP, Windows 7, Mac OS Mountain Lion \\
-Computer Languages & Java, Scala, Javascript, C\#, Pharo, C, C++, Python  \\
-Application Middleware & Tomcat, JBoss \\
-Robotics Middleware & ROS \\
-ORM Frameworks &  Hibernate, nHibernate, Objectify \\
-DI Frameworks &  Spring  \\
-MVC Frameworks &  SpringMVC, Grails \\
-Client Frameworks & Backbone.js, Underscore.js, \\
-Robotic Frameworks &  PhaROS, ROSCpp, ROSPy \\
-Databases & MySQL, PostgreSQL, Oracle, SQLServer  \\
-Virtualization & Virtualbox \\
-Tools & SVN, GIT, Eclipse \\
-Writing & LaTex, Markdown \\
-\end{tabular}
+{\bf Universidad Tecnologica Nacional (UTN) - Ciudad de Buenos Aires - Argentine} \hfill {\em January 2004 - 2011 (Inconcluse)} \\ 
+Software Engineer - Coursed 3 first years and part of the forth  (Of 5 years of career) \\
 
+{\bf Ing. Otto Krause - Ciudad de Buenos Aires - Argentina} \hfill {\em December 2001} \\ 
+Technic in computation \\
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
