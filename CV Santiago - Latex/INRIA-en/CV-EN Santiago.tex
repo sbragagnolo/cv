@@ -28,7 +28,7 @@
 
 
 \name{Santiago Bragagnolo} % Your name
-	\address{14 Dennis du Peage \\ Lille, 59800 } % Your address
+	\address{28 Rue Clovis Hugues \\ Lille, 59800 } % Your address
 	\address{(+33)~$\cdot$~7~$\cdot$~83~$\cdot$~14~$\cdot$~45~$\cdot$~35 \\ santiagobragagnolo@gmail.com} % Your phone number and
 
 \begin{document}
@@ -52,7 +52,7 @@
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
 	Skype & santiago.bragagnolo  \\
 	Linkedin & linkedin.com/in/santiagobragagnolo/  \\
-	Portfolio & santiagobragagnolo.info  \\
+	%Portfolio & santiagobragagnolo.info  \\
 	Blog & knowledgeconvergence.wordpress.com  \\
 	Github & github.com/sbragagnolo \\
 	SmalltalkHub & smalltalkhub.com/\#!/~sbragagnolo \\
@@ -67,25 +67,25 @@
 
 \begin{rSection}{INRIA Position related: Brief of Domains}
 	\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-		Robotics & 2 years \\
+		Robotics & 4 years \\
 		Internet of things & 2 years \\
-		User experience (AKA human-machine interaction) & 12 years \\
+		User experience & 11 years \\
 		Gamification (Specific way of UX) & 1 year \\
-		Software design, quality and maintenance & 12 years  \\
+		Software design, quality and maintenance & 15 years  \\
 	\end{tabular}	
 \end{rSection}
 
 \begin{rSection}{INRIA Position related: Brief of Competences}
 	\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
 		Languages & Pharo Smalltalk, Java, Javascript, Scala, C++ \\
-		Technologies & Unix, ROS, SQL, NoSQL, REST, JSON, XML, Multiple-cores \\
-		Microcontroller programming  & Arduino \\ 
+		Technologies & Unix, ROS, SQL, NoSQL, REST, JSON, XML, Multiple-cores  \\
+		Microcontroller programming  & Arduino, RaspberryPi, ARM Cortex M3 \\ 
 		Versioning tools & SVN, GIT, Mercurial \\
-		Continuous integration & Jenkins \\
-		Testing & TDD 8 years experience \\
+		Continuous integration & Jenkins, Travis \\
+		Testing & TDD 10 years experience \\
 		Testing Tecnologies & SUnit, JUnit, Selenium, ScalaTest \\
-		Design Patterns & 7 years experience \\
-		Working in multidisciplinary team & 2 years \\
+		Design Patterns & 9 years experience \\
+		Working in multidisciplinary team & 4 years \\
 	\end{tabular}
 \end{rSection}
 
@@ -93,7 +93,7 @@
 \begin{rSection}{Experience Brief}
 	\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
 		Software Industry experience & 11 years \\
-		Research experience (Robotics) & 2 years \\
+		Research transference experience  & 4 years \\
 		Effective engineering study & 3.5 years \\
 		Teaching programming on university & 5 years \\
 	\end{tabular}
@@ -111,7 +111,7 @@
 		SQL Databases & MySQL, PostgreSQL, Oracle, SQLServer  \\
 		NO-SQL Databases & MongoDB, BigTable, Db4o  \\
 		Versioning & Metacello, Monticello, SVN, GIT \\
-		Building & Make, Maven \\
+		Building & Make, Maven, NDK \\
 		Processing Architectures & Multithreading, Multiprocesses, Real time \\
 		Software Architectures & REST, Service,  Client \& Server, Data Processing (ETL), Actors\\
 		Quality/Testing & SUnit, JUnit, Jenkins \\
@@ -150,44 +150,74 @@
 
 \begin{rSection}{Currently working on}
 
-	\begin{rSubsection}{On my own}{December 2014 - Currently }{Robots-du-Nord project}
-		\item Robots du nord is project about robots development, starting in a first stage of learning how to design and develop hardware and software for robotics and domotics domains.
-		\item Pre startup prototyping
-		\item Business model definition
-		\item Content writing
-		\item Technology development
+
+\begin{rSubsection}{INRIA}{April 2015 - Present }{ Research Transference Engineer }{Lille, France}
+	\item Transference engineering is about applying research from different research teams into industrial domains. 
+	\item Actually I'am working with three teams
+	\item FUN is a IOT Team.   \url{https://www.inria.fr/en/teams/fun}
+		\begin{itemize}
+			\item  Self-Organised Multi hop networks over a net of heterogeneous IOT nodes over IOT-lab \url{https://www.iot-lab.info}
+			\item Working with RIOT.
+			\item Development of the Demo "Firemen". A network of IOT sensing nodes recognise a fire case and sends a robot to solve the problem.
+			\item Team contact Julien Vandaele - julien.vandaele@inria.fr
+		\end{itemize}
+	\item NON-A is an adaptative control team.   \url{https://www.inria.fr/en/teams/non-a}
+			\begin{itemize}
+				\item Testing and implementation of potential field path planning
+				\item Testing and implementation of tangential path planning
+				\item Testing and implementation of optimal minimal points path planning		
+				\item Zephyr. The intelligent table. A bed table that responds to voice commands.
+				\item Robot-cop. A wanderer robot that sends alarms based on the recognition of potential intruders . 	
+				\item Team contact Zheng Gang - gang.zheng@inria.fr
+			\end{itemize}
+		
+	\item RMOD is a team that researches about software evolution and maintenance.  \url{https://www.inria.fr/en/teams/rmod}
+			\begin{itemize}
+				\item Compiling Pharo smalltalk Virtual machine for android platform \url{https://github.com/pharo-project/pharo-vm}
+				\item TaskIT. Framework for dealing with concurrency and parallelism. 
+				\item Scale. Framework for scripting with pharo. 
+				\item Blockchain based application analysis. 
+				\item Team contact Stephane Ducasse - stephane.ducasse@inria.fr
+			\end{itemize}
+	\item Contact reference: Sylvain Karpf; sylvain.karpf@inria.fr
+
+\end{rSubsection}
+
+
+
+	\begin{rSubsection}{Spare time}{October 2014 - Currently }{Mako/Makros} {Lille, France}
+		\item Component oriented framework for general programming and for  quick prototyping and reproducibility of robotics behaviour
+		\item Support for Pharo 3.0, 4.0 and 5.0.
+		\item https://github.com/sbragagnolo/Mako
+		\item https://github.com/sbragagnolo/Makros
+	\end{rSubsection}
+
+	\begin{rSubsection}{Spare time}{October 2014 - Currently }{MetaDDS/SimpleDDS/ROSDDS} {Lille, France}
+		\item Skeleton and canon implementation of a Data Delivery Service (publisher/subscriber) framework and it full ROS and Pharo smalltalk specific implementation. Based on ROS standard and OMG-DDS standard.
+		\item Support for Pharo 3.0, 4.0 and 5.0.
+		\item https://github.com/sbragagnolo/MetaDDS
+		\item https://github.com/sbragagnolo/SimpleDDS
+		\item https://github.com/sbragagnolo/ROSDDS
+	\end{rSubsection}
+
+	\begin{rSubsection}{Spare time}{Feburary 2013 - Currently }{TaskIT}{Lille, France}
+		\item Support for Pharo 3.0, 4.0 and 5.0.
+		\item Framework for managing concurrency and parallel computations.
+		\item Based in future/promises and it composition for synchronisation of processing. 
+		\item https://github.com/sbragagnolo/taskit
 	\end{rSubsection}
 	
-	\begin{rSubsection}{On my own}{October 2014 - Currently }{MetaDDS/SimpleDDS}
-		\item Skeleton and canon implementation of a Data Delivery Service (publisher/subscriber) framework and it full ROS and Pharo smalltalk specific implementation. Based on ROS standard and OMG-DDS standard.
-		\item Using for development Pharo 3.0
-		\item You can checkit out from: 
-		\item http://smalltalkhub.com/\#!/~sbragagnolo/MetaDDS
-		\item http://smalltalkhub.com/\#!/~sbragagnolo/SimpleDDS
-%	\end{itemize}
-	\end{rSubsection}
-
-	\begin{rSubsection}{On my own}{Feburary 2014 - Currently }{TaskIT}
-		\item Maintaining and enhancing TaskIT with Guillermo Polito
-		\item TaskIT had born and grow during the development of PhaROS during my job at Ecole des mines, and it was mean to be object oriented, easy to use, and with powerful, well tested, simple and reliable processing abstractions, in order to serve in a real-time processing environment. 
-		\item As well it provides some experimental functionalities for process understanding as the plan definition. 
-		\item We are currently working on Task-IT 2.0, which will have a great new suit of concept for process management
-		\item You can checkit out from:
-		\item http://smalltalkhub.com/mc/sbragagnolo/TaskIT/main
-	\end{rSubsection}
-
 \end{rSection}
 
 
 \begin{rSection}{Industry and Research Experience}
-
-\begin{rSubsection}{Ericsson}{May 2014 - September 2014 }{ Senior Java and C++ developer }{Malaga, Spain}
+		
+\begin{rSubsection}{Ericsson}{May 2014 - October 2014 }{ Senior Java and C++ developer }{Malaga, Spain}
 	\item Design and development of a troubleshooting solution for mobile telephone networks
 	\item ERA (Ericsson ran analyzer) Project. C++ and Java based high-performance client, based on data analysis and complex visualizations over a GIS Map.
 	\item TPS (Trace processor server) Project. Java high-performance server for trace processing (system that faces problems of teras of data) with some IronPython for processing text files, with part of processing over hadoop and hive.
 	\item ODG (OSS Data gateway) Project. Project that analyze data from OSS servers. Also Java high-performance server. 
-	\item All of these project are highly Multithreaded and based on distributed processing. 
-	\item The data containers of these project are based on Hadoop File system. 
+	\item All of these project are highly Multithreaded and based on distributed processing.  
 	\item Most of the data processed is reduced and stored into the client mapping data from several servers with workflow processing. (Based in ETL pattern)
 	\item TDD and Continuous delivery evangalizer.
 	\item Working under Agile with Scrum methodology
@@ -440,7 +470,7 @@
 \begin{rSection}{Education}
 
 
-{\bf Universidad Tecnologica Nacional (UTN) - Ciudad de Buenos Aires - Argentine} \hfill {\em January 2004 - Aborted on 2011 because family problems, having papers to proof 7 semesters of career of 10 } \\ 
+{\bf Universidad Tecnologica Nacional (UTN) - Ciudad de Buenos Aires - Argentine} \hfill {\em January 2004 - Aborted on 2011 because of personal problems, having papers to proof 7 semesters of career of 10 } \\ 
 Software Engineer  \\
 
 {\bf Ing. Otto Krause - Ciudad de Buenos Aires - Argentina} \hfill {\em December 2001} \\ 
