@@ -1,4 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%DIF LATEXDIFF DIFFERENCE FILE
+%DIF DEL santi.tex              Mon Apr 16 19:02:57 2018
+%DIF ADD Fiches-de-mision.tex   Tue Apr 17 11:13:28 2018
 % Medium Length Professional CV
 % LaTeX Template
 % Version 2.0 (8/5/13)
@@ -26,9 +29,13 @@
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
 \usepackage{hyperref}
 \usepackage{footnote}
-\usepackage{pifont}
+%DIF 29a29
+\usepackage{pifont} %DIF > 
+%DIF -------
 
-\include{macros}
+%DIF 30a31
+\include{macros} %DIF > 
+%DIF -------
 
 
 \name{Fiches de mission} % Your name
@@ -36,15 +43,46 @@
 	\address{28 rue Clovis Hugues \\ Lille, 59800 } % Your address
 	\address{(+33)~$\cdot$~7~$\cdot$~83~$\cdot$~14~$\cdot$~45~$\cdot$~35 \\ santiagobragagnolo@gmail.com} % Your phone number and
 	\address{Santiago Bragagnolo } % Your address
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
+\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\providecommand{\DIFaddtex}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
+\providecommand{\DIFdeltex}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF HYPERREF PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{\texorpdfstring{\DIFaddtex{#1}}{#1}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{\texorpdfstring{\DIFdeltex{#1}}{}} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
+
 \begin{document}
 
 
-\begin{rSection}{Donn\'{e}es Biographiques}
+\DIFdelbegin \subsection{\DIFdel{Relations humaines}} 
+%DIFAUXCMD
+\addtocounter{subsection}{-1}%DIFAUXCMD
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdelend \begin{rSection}{Donn\'{e}es Biographiques}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
 	Pronom et Nom & Santiago Pablo Bragagnolo  \\
-	Date de naissance & 16 novembre 1982  \\
-	Nationalités & Argentine, Italienne  \\
+	Date de naissance & 16 \DIFdelbegin \DIFdel{november }\DIFdelend \DIFaddbegin \DIFadd{novembre }\DIFaddend 1982  \\
+	\DIFdelbegin \DIFdel{Nationalit\'{e}s }\DIFdelend \DIFaddbegin \DIFadd{Nationalités }\DIFaddend & \DIFdelbegin \DIFdel{Argentin, Italien  }\DIFdelend \DIFaddbegin \DIFadd{Argentine, Italienne  }\DIFaddend \\
 \end{tabular}
 
 \end{rSection}
@@ -69,10 +107,11 @@
 
 \section{Fiche de Mission I - Aufiero Informatica S.R.L.}
 
-	La premier mission que J'ai choisis c'est la mission industriel plus iconique, durant la période mars 2007 - décembre 2010. Cela est la entreprise que m'a forme le plus sur le développement logiciel industriel. Ici, j'ai suis évolué mes aptitudes tant les techniques comme les humaines. 
-	Aufiero Informatica est une entreprise moderne de taille petite-moyen (dix a quinze personnes), avec une organisation matricielle ou par project: sans beaucoup des hiérarchies, mais avec beaucoup des projets. 
-	
+	La premier mission que J'ai choisis c'est la mission industriel plus iconique, \DIFdelbegin \DIFdel{dans le intervalle }\DIFdelend \DIFaddbegin \DIFadd{durant la période }\DIFaddend mars 2007 \DIFdelbegin \DIFdel{à }\DIFdelend \DIFaddbegin \DIFadd{- }\DIFaddend décembre 2010. Cela est la entreprise que m'a forme le plus sur le développement logiciel industriel. Ici\DIFdelbegin \DIFdel{J}\DIFdelend \DIFaddbegin \DIFadd{, j}\DIFaddend 'ai suis évolué mes aptitudes tant les techniques comme les humaines. 
+	Aufiero Informatica est une entreprise moderne de taille petite-moyen (dix a \DIFdelbegin \DIFdel{quince }\DIFdelend \DIFaddbegin \DIFadd{quinze }\DIFaddend personnes), avec \DIFdelbegin \DIFdel{un organigramme plutôt plat, }\DIFdelend \DIFaddbegin \DIFadd{une organisation matricielle ou par project: }\DIFaddend sans beaucoup des hiérarchies, mais avec beaucoup des projets. 
+
 	\subsection{Responsabilités}
+\DIFaddbegin 
 
 \newcommand{\uno}{\ding{172}\ }
 \newcommand{\dos}{\ding{173}\ }
@@ -85,168 +124,182 @@
 \newcommand{\CUATRO}{\ding{205}\ }
 
 
-\begin{table}[!htbp]
+\DIFaddend \begin{table}[!htbp]
 \label{table-aufiero}
 \begin{tabular}{|l|l|l|l|l}
 \cline{1-4}
-   & Descriptif des tâches &  \% & Niveau de Responsabilité \footnotemark &  \\ \cline{1-4}
- A& Interaction avec un client permanent & 20\% & \uno \dos \tres \CUATRO &  \\ \cline{1-4}
- B& Conception / Développement sur systèmes d'un client permanent & 30\%&  \uno \dos \tres \CUATRO &  \\ \cline{1-4}
- C& Administrateur de base de données  & 10\%  & \uno \dos \TRES \cuatro  &  \\ \cline{1-4}
- D& Architecte et planning de application sur des nouveaux projets & 25\% & \uno \dos \TRES \cuatro &  \\ \cline{1-4}
- E& Conception / Développement sur des nouveaux projets & 15\% &\uno \DOS \tres \cuatro&  \\ \cline{1-4}
+   & Descriptif des \DIFdelbeginFL \DIFdelFL{taches }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{tâches }\DIFaddendFL &  \% & Niveau de Responsabilité \footnotemark &  \\ \cline{1-4}
+ A& Interaction avec un client permanent & 20\% & \DIFdelbeginFL \DIFdelFL{1 2 3 }\textbf{\DIFdelFL{4}}  %DIFAUXCMD
+\DIFdelendFL \DIFaddbeginFL \uno \dos \tres \CUATRO \DIFaddendFL &  \\ \cline{1-4}
+ B& Conception / Développement sur systèmes d'un client permanent & 30\%&  \DIFdelbeginFL \DIFdelFL{1 2 3 }\textbf{\DIFdelFL{4}} %DIFAUXCMD
+\DIFdelendFL \DIFaddbeginFL \uno \dos \tres \CUATRO \DIFaddendFL &  \\ \cline{1-4}
+ C& Administrateur de base de données  & 10\%  & \DIFdelbeginFL \DIFdelFL{1 2 }\textbf{\DIFdelFL{3}} %DIFAUXCMD
+\DIFdelFL{4  }\DIFdelendFL \DIFaddbeginFL \uno \dos \TRES \cuatro  \DIFaddendFL &  \\ \cline{1-4}
+ D& \DIFdelbeginFL \DIFdelFL{Architect et planning d’}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{Architecte et planning de }\DIFaddendFL application sur des nouveaux projets & 25\% & \DIFdelbeginFL \DIFdelFL{1 2 }\textbf{\DIFdelFL{3}} %DIFAUXCMD
+\DIFdelFL{4 }\DIFdelendFL \DIFaddbeginFL \uno \dos \TRES \cuatro \DIFaddendFL &  \\ \cline{1-4}
+ E& Conception / Développement sur des nouveaux projets & 15\% &\DIFdelbeginFL \DIFdelFL{1 }\textbf{\DIFdelFL{2}} %DIFAUXCMD
+\DIFdelFL{3 4   }\DIFdelendFL \DIFaddbeginFL \uno \DOS \tres \cuatro\DIFaddendFL &  \\ \cline{1-4}
 \end{tabular}
 
 \caption{Responsabilités}
 \end{table}
-Dans la table \ref{table-aufiero} on peut observer les responsabilités possédées a la fin de ma carrière dans la entreprise.
-Dans le cadre d'importance a niveaux stratégique de la entreprise, l'ordre d'importance de mes tâches est: A - D - B - C - E. 
+Dans la table \ref{table-aufiero} on peut observer les responsabilités possédées a la fin de \DIFdelbegin \DIFdel{mon }\DIFdelend \DIFaddbegin \DIFadd{ma }\DIFaddend carrière dans la entreprise.
+Dans le cadre d'importance a niveaux stratégique de la \DIFdelbegin \DIFdel{boite}\DIFdelend \DIFaddbegin \DIFadd{entreprise}\DIFaddend , l'ordre d'importance de mes \DIFdelbegin \DIFdel{taches }\DIFdelend \DIFaddbegin \DIFadd{tâches }\DIFaddend est: A - D - B - C - E. 
 
 \footnotetext{
 Niveau de responsabilité
-\begin{enumerate} 
+ \begin{enumerate}  
 	\item de l'application de consignes ou de procédures
 	\item de l'amélioration ou de l'optimisation de solutions ou de propositions
 	\item de la conception de programmes ou de la définition de cahiers des charges 
 	\item de la définition d'orientations ou de stratégies
-\end{enumerate}
+ \end{enumerate} 
 }
 
 \subsection{Relations humaines} 
 
-Dans ce position, j'ai eu deux équipes des travaille. Un équipe en charge de soutenir les requêtes de notre client plus importante (en plus Oceano). L'autre équipe en charge de recevoir, analyser et implémenter les nouveaux projets arrivent~(en plus NewDevs). 
-Chaque un de ces équipes m'a rendu différent relation humaines et différent relations hiérarchiques.  
-	
-\pablo{Aca deberias hablar un poco más de Oceano, yo se que trabajaste con Tiburón, Delfin y Mojarrita, pero ellos no lo saben}	
-	
-	\subsubsection{Relations hiérarchiques} 
-	
+Dans ce \DIFdelbegin \DIFdel{boite J}\DIFdelend \DIFaddbegin \DIFadd{position, j}\DIFaddend 'ai eu deux équipes des travaille. Un équipe en charge de soutenir les \DIFdelbegin \DIFdel{besoins }\DIFdelend \DIFaddbegin \DIFadd{requêtes }\DIFaddend de notre client plus importante (en plus Oceano). L'autre équipe en charge de recevoir\DIFaddbegin \DIFadd{, analyser et implémenter }\DIFaddend les nouveaux projets arrivent\DIFaddbegin \DIFadd{~}\DIFaddend (en plus NewDevs). 
+Chaque un de ces équipes m'a rendu \DIFdelbegin \DIFdel{different }\DIFdelend \DIFaddbegin \DIFadd{différent }\DIFaddend relation humaines et \DIFdelbegin \DIFdel{different }\DIFdelend \DIFaddbegin \DIFadd{différent }\DIFaddend relations hiérarchiques.  
 
-		\paragraph{Dans l'équipe Oceano,} j'ai été chef de projet logiciel, et organisateur des services d'infrastructure.  Notre équipe a été en charge de soutenance des systèmes existantes, réseaux, base de données et infrastructure hardware. 
-		
-		\begin{enumerate}
+\DIFaddbegin \pablo{Aca deberias hablar un poco más de Oceano, yo se que trabajaste con Tiburón, Delfin y Mojarrita, pero ellos no lo saben}	
+
+	\DIFaddend \subsubsection{Relations hiérarchiques} 
+
+
+		\paragraph{Dans l'\DIFdelbegin \DIFdel{equipe }\DIFdelend \DIFaddbegin \DIFadd{équipe }\DIFaddend Oceano\DIFaddbegin \DIFadd{,}\DIFaddend } \DIFdelbegin \DIFdel{, 	J}\DIFdelend \DIFaddbegin \DIFadd{j}\DIFaddend 'ai été chef de projet logiciel, et organisateur des services d'infrastructure.  Notre équipe a été en charge de soutenance des systèmes existantes, réseaux, base de données et infrastructure hardware. 
+
+		 \begin{enumerate} 
 		\item \textbf{De qui recevez-vous vos objectifs, vos instructions?}
 			Les objectifs de cet équipe ont été définis dans les reunions annuels et mensuels entre le directeur de Aufiero Informatica, le manager de logistique, le manager de ventes, et moi.
 		\item \textbf{Sous quelle(s) forme(s)?}
-			Le résultat de chaque réunion mensuel a été un cahier de charges numérique, avec les tâches du mois. Cet cahier de charges numérique  a été en forme de tableur.
+			Le résultat de chaque \DIFdelbegin \DIFdel{reunion }\DIFdelend \DIFaddbegin \DIFadd{réunion }\DIFaddend mensuel a été un cahier de charges numérique, avec les \DIFdelbegin \DIFdel{taches }\DIFdelend \DIFaddbegin \DIFadd{tâches }\DIFaddend du mois. Cet cahier de charges numérique  a été en \DIFdelbegin \DIFdel{form }\DIFdelend \DIFaddbegin \DIFadd{forme de }\DIFaddend tableur.
 		\item \textbf{Qui évalue votre travail?}
 			Les personnes en charge de évaluer mon travaille ont été  le manager de logistique, le manager de ventes et le directeur de Aufiero Informatica. 
-		\item  \textbf{Éventuellement à qui donnez-vous des objectifs. des instructions, des consignes ?}
-			J'ai rendu des objectifs généraux aux service de soutenance de réseaux et infrastructure hardware (rénovation et réparation des ordinateurs, serveurs , imprimantes, etc).
+		\item  \textbf{\DIFdelbegin \DIFdel{Eventuellement }\DIFdelend \DIFaddbegin \DIFadd{Éventuellement }\DIFaddend à qui donnez-vous des objectifs. des instructions, des consignes ?}
+			J'ai rendu des objectifs généraux aux service de soutenance de réseaux et infrastructure hardware (\DIFdelbegin \DIFdel{renovation et reparation }\DIFdelend \DIFaddbegin \DIFadd{rénovation et réparation }\DIFaddend des ordinateurs, serveurs , imprimantes, etc).
 		\item \textbf{Sous quelle(s) forme(s)?}
 			Sous le format d'ordres de travaille électroniques fourni pour Aufiero informatica, et aussi en format email. 
 		\item \textbf{Comment évaluez-vous l'activité de vos collaborateurs}
-			Pour évaluer l'activité de mes collaborateurs, J'ai utilise principalement des réunions informels hebdomadaires et le retour du personnel d'Oceano. 
-		\end{enumerate}
-		
-		\paragraph{Dans l'équipe NewDevs,} j'ai été architecte d'application. Mon rôle principale a été prendre les décisions d'architecture et conception général des nouvelles solutions informatique, suivre son développement et garantir son qualité. 
-		
-		\begin{enumerate}
+			Pour évaluer l'activité de mes collaborateurs, J'ai utilise principalement des réunions informels hebdomadaires et le retour \DIFdelbegin \DIFdel{des travailleurs }\DIFdelend \DIFaddbegin \DIFadd{du personnel }\DIFaddend d'Oceano. 
+		 \end{enumerate} 
+
+		\paragraph{Dans l'\DIFdelbegin \DIFdel{equipe }\DIFdelend \DIFaddbegin \DIFadd{équipe }\DIFaddend NewDevs\DIFaddbegin \DIFadd{,}\DIFaddend } \DIFdelbegin \DIFdel{, J}\DIFdelend \DIFaddbegin \DIFadd{j}\DIFaddend 'ai été architecte d'application. Mon \DIFdelbegin \DIFdel{role }\DIFdelend \DIFaddbegin \DIFadd{rôle }\DIFaddend principale a été prendre les \DIFdelbegin \DIFdel{decisions }\DIFdelend \DIFaddbegin \DIFadd{décisions }\DIFaddend d'architecture et conception \DIFdelbegin \DIFdel{general des }\DIFdelend \DIFaddbegin \DIFadd{général des nouvelles }\DIFaddend solutions informatique, suivre son \DIFdelbegin \DIFdel{development }\DIFdelend \DIFaddbegin \DIFadd{développement }\DIFaddend et garantir son qualité. 
+
+		 \begin{enumerate} 
 		\item \textbf{De qui recevez-vous vos objectifs, vos instructions?}
 			Mes objectifs ont été défini en conjoint pour manager de projet et les clients
 		\item \textbf{Sous quelle(s) forme(s)?}
-			Forme oral, pendant les réunions de planification et suivi dans une logiciel de planification de projets.
+			Forme oral, pendant les \DIFdelbegin \DIFdel{reunions }\DIFdelend \DIFaddbegin \DIFadd{réunions }\DIFaddend de planification et suivi dans une logiciel de planification de projets.
 		\item \textbf{Qui évalue votre travail?}
-			J'ai été évalué périodiquement dans les reunions de sprint et de fin de projet, pour tout l'équipe, mais principalement pour le manager de projet. 
-		\item  \textbf{Éventuellement à qui donnez-vous des objectifs. des instructions, des consignes?}
-			Dans cette équipe J'avais pas des  personne en charges, mais \textbf{J'ai été la référence de développement}.
-		\end{enumerate}
-		
+			J'ai été évalué périodiquement dans les reunions de sprint et de fin de projet, pour tout l'\DIFdelbegin \DIFdel{equipe}\DIFdelend \DIFaddbegin \DIFadd{équipe}\DIFaddend , mais principalement pour le manager de projet. 
+		\item  \textbf{\DIFdelbegin \DIFdel{Eventuellement }\DIFdelend \DIFaddbegin \DIFadd{Éventuellement }\DIFaddend à qui donnez-vous des objectifs. des instructions, des consignes?}
+			Dans cette équipe J'avais pas des  personne en charges, mais \textbf{J'ai été la \DIFdelbegin \DIFdel{reference }\DIFdelend \DIFaddbegin \DIFadd{référence }\DIFaddend de développement}.
+		 \end{enumerate} 
+
 					
 	\subsubsection{Relations horizontales}
+
 	
-	
-		\paragraph{Dans l'équipe Oceano,} mon travaille a été articulé avec les différentes départements de la entreprise client.
-		
-		\begin{enumerate}
+		\paragraph{Dans l'\DIFdelbegin \DIFdel{equipe }\DIFdelend \DIFaddbegin \DIFadd{équipe }\DIFaddend Oceano\DIFdelbegin %DIFDELCMD < }%%%
+\DIFdelend ,\DIFaddbegin } \DIFaddend mon travaille a été articulé avec les différentes départements de la entreprise client.
+
+		 \begin{enumerate} 
 		\item \textbf{Avec quel(s) service(s) internes êtes-vous en relation pour l'exécution de cette mission?}
 			Dans l'équipe Oceano, mon travaille a été articulé  avec  les différentes départements de la entreprise client. 
 			J'ai travaillé en relation horizontale spécialement avec le manager de logistique et achats, 
-			le manager de ventes, et en mineur proportion avec le manager de marketing. 
+			le manager de ventes, et \DIFdelbegin \DIFdel{, }\DIFdelend en mineur proportion \DIFdelbegin \DIFdel{, }\DIFdelend avec le manager de marketing. 
+\DIFaddbegin 
 
-		\item \textbf{Sous quelle(s) forme(s)?}
-			Le but général de notre collaboration est la définition des objectifs et la mis en place de mis-a-jours et nouvelle fonctionnalités. 
-			Les moyens d'organisation ont été principalement les réunions et des échange de courriers électroniques. 
+		\DIFaddend \item \textbf{Sous quelle(s) forme(s)?}
+			Le but \DIFdelbegin \DIFdel{general }\DIFdelend \DIFaddbegin \DIFadd{général }\DIFaddend de notre collaboration est la \DIFdelbegin \DIFdel{definition }\DIFdelend \DIFaddbegin \DIFadd{définition }\DIFaddend des objectifs et la mis en place de mis-a-jours et nouvelle fonctionnalités. 
+			Les moyens d'organisation ont été principalement les réunions et des échange \DIFdelbegin \DIFdel{sous le format de courrier électronique}\DIFdelend \DIFaddbegin \DIFadd{de courriers électroniques}\DIFaddend . 
 		\end {enumerate}	
-		
-		\paragraph{Dans l'équipe NewDevs,} mon travaille a été plusieurs fois lieu aux département de ventes et marketing. 
-		
-		\begin{enumerate}
+
+		\paragraph{Dans l'\DIFdelbegin \DIFdel{equipe }\DIFdelend \DIFaddbegin \DIFadd{équipe }\DIFaddend NewDevs\DIFdelbegin %DIFDELCMD < }%%%
+\DIFdelend ,\DIFaddbegin } \DIFaddend mon travaille a été plusieurs fois lieu aux département de ventes et marketing. 
+
+		 \begin{enumerate} 
 		\item \textbf{Avec quel(s) service(s) internes êtes-vous en relation pour l'exécution de cette mission?}
 			Chef de ventes et marketing. 
 		\item \textbf{Sous quelle(s) forme(s) ?}
-			Normalement de façon oral ou courrier électronique et pendant des réunions ou de journées de travaille en équipe.
-		\end{enumerate}
+			Normalement de façon oral ou \DIFdelbegin \DIFdel{courriel }\DIFdelend \DIFaddbegin \DIFadd{courrier }\DIFaddend électronique et pendant des \DIFdelbegin \DIFdel{reunions }\DIFdelend \DIFaddbegin \DIFadd{réunions }\DIFaddend ou de journées de travaille en \DIFdelbegin \DIFdel{equipe.
+		}%DIFDELCMD < \end {%%%
+\DIFdel{enumerate}%DIFDELCMD < }
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \DIFadd{équipe.
+		} \end{enumerate} 
+\DIFaddend 
 
-	\pablo{Fijate de que si usas courriers électroniques o courriels, pero no mezclados (courriels electroniques duplica) y si podes usar el mismo siempre mejor, cual te gusta mas?}
+	\DIFaddbegin \pablo{Fijate de que si usas courriers électroniques o courriels, pero no mezclados (courriels electroniques duplica) y si podes usar el mismo siempre mejor, cual te gusta mas?}
 
 	
-	\subsubsection{Relations extérieures} 
-		\paragraph{Dans l'équipe Oceano,} nous avions des relations avec les fournisseurs de stockage de livres (Les dépôts de livres on été externalisés)
-		\begin{enumerate}
-		\item \textbf{Avec quel(s) partenaire s) êtes-vous en relation pour l'exécution de cette mission?}
+	\DIFaddend \subsubsection{Relations extérieures} 
+		\paragraph{Dans l'\DIFdelbegin \DIFdel{equipe }\DIFdelend \DIFaddbegin \DIFadd{équipe }\DIFaddend Oceano\DIFdelbegin %DIFDELCMD < }%%%
+\DIFdelend ,\DIFaddbegin } \DIFaddend nous avions des relations avec les fournisseurs de stockage de livres (Les \DIFdelbegin \DIFdel{depots }\DIFdelend \DIFaddbegin \DIFadd{dépôts }\DIFaddend de livres on été externalisés)
+		 \begin{enumerate} 
+		\item \textbf{Avec quel(s) partenaire \DIFdelbegin \DIFdel{(}\DIFdelend s) êtes-vous en relation pour l'exécution de cette mission?}
 			J'ai été en contacte avec le Manager de compte d'Oceano, avec qui on fait la consolidation des stocks une fois par an.
 		\item \textbf{Sous quelle(s) forme(s)?}
-			Téléphone et courrier électronique ont été les moyen principaux de communication. 
+			\DIFdelbegin \DIFdel{Telephone }\DIFdelend \DIFaddbegin \DIFadd{Téléphone }\DIFaddend et courrier électronique ont été les moyen principaux de communication. 
 		\item \textbf{Avec quelle fréquence?}
 			Au besoin, spécialement pendant la fin de l'année commercial.
 		\end {enumerate}			
-		
-		\paragraph{Dans l'équipe NewDevs,} j'avais des relations avec les clients, nécessaire pour arriver a comprendre les fonctionnalités demandées.   
-		\begin{enumerate}
+
+		\paragraph{Dans l'\DIFdelbegin \DIFdel{equipe }\DIFdelend \DIFaddbegin \DIFadd{équipe }\DIFaddend NewDevs\DIFaddbegin \DIFadd{,}\DIFaddend } \DIFdelbegin \DIFdel{J}\DIFdelend \DIFaddbegin \DIFadd{j}\DIFaddend 'avais des relations avec les clients, nécessaire pour arriver a comprendre les fonctionnalités demandées.   
+		 \begin{enumerate} 
 		\item \textbf{Avec quel(s) partenaire(s) êtes-vous en relation pour l'exécution de cette mission?}
 			Clients demandent du projets sur mesure 
 		\item \textbf{ Sous quelle(s) forme(s)?}
-			Téléphone et courrier électronique et pendant les réunions de avancement 
+			\DIFdelbegin \DIFdel{Telephone }\DIFdelend \DIFaddbegin \DIFadd{Téléphone }\DIFaddend et courrier électronique et pendant les \DIFdelbegin \DIFdel{reunions }\DIFdelend \DIFaddbegin \DIFadd{réunions }\DIFaddend de avancement 
 		\item \textbf{Avec quelle fréquence?}
-			Au besoin. \pablo{pone una frecuencia aca, inventale una vez por mes o dos veces o por semana... algo, lo mismo con el de antes}
-		\end {enumerate}			
-		
+			Au besoin. \DIFaddbegin \pablo{pone una frecuencia aca, inventale una vez por mes o dos veces o por semana... algo, lo mismo con el de antes}
+		\DIFaddend \end {enumerate}			
+
 	\subsection{Décrivez les principales qualités que vous avez a mobiliser dans cette mission}
-	
-		\begin{itemize} 				
+
+		 \begin{itemize}  				
 			\item \textbf{Autonomie} \newline
-				Le fait de passer beaucoup de temps chez notre client principal, et être la seule personne que comprendre le besoin de la entreprise et au meme temps le cout technique de chaque tâche, m'ai force a être moi meme qui define les priorités. 
+				Le fait de passer beaucoup de temps chez notre client principal, et être la seule personne que comprendre le besoin de la entreprise et au meme temps le cout technique de chaque \DIFdelbegin \DIFdel{tache}\DIFdelend \DIFaddbegin \DIFadd{tâche}\DIFaddend , m'ai force a être moi meme qui define les priorités. 
 			\item \textbf{Créativité et Pragmatisme } \newline
-				Etre dans les reunions de definition des tâches m'a expose au management de budget et temps de projet au niveau de management m'a aidé a metre en dimension les problèmes, et comprendre le type de solution q'on a besoin. Par défaut on veut toujours la meilleure solution. Mais, on regardent le budget, il faut bien choisir et comprendre qu'est-ce que ce suffisamment bien, et comment faire pour ressouder les problèmes de la maniere plus simple et responsive. 
+				Etre dans les reunions de definition des \DIFdelbegin \DIFdel{taches }\DIFdelend \DIFaddbegin \DIFadd{tâches }\DIFaddend m'a expose au management de budget et temps de projet au niveau de management m'a aidé a metre en dimension les problèmes, et comprendre le type de solution q'on a besoin. Par défaut on veut toujours la meilleure solution. Mais, on regardent le budget, il faut bien choisir et comprendre qu'est-ce que ce suffisamment bien, et comment faire pour ressouder les problèmes de la maniere plus simple et responsive. 
 			\item \textbf{Curiosité } \newline
 				La curiosité est probablement un des qualités plus importantes d'un bon architecte de application. Connaitre les différents utils et solutions dans le marché, et comprendre comment les utiliser pour ressouder différents problématiques.
 			\item \textbf{Autodiscipline} \newline
 				Pouvoir être curieux, et au meme temps suive le chemin du pragmatism, et pouvoir suivre le plan dessine pour moi meme, m'a demandé être  beaucoup d'autodiscipline.
 			\item \textbf{Negotiation  et prise de décision } \newline
-				Etant la personne que define mes propres tâches avec des grosses figures du client, m'a pusse a adopter une position de négociation au moins une foi par mois., et plusieurs fois per mois dans une situation de prise de décision.  
-		\end{itemize}
-		
+				Etant la personne que define mes propres \DIFdelbegin \DIFdel{taches }\DIFdelend \DIFaddbegin \DIFadd{tâches }\DIFaddend avec des grosses figures du client, m'a pusse a adopter une position de négociation au moins une foi par mois., et plusieurs fois per mois dans une situation de prise de décision.  
+		 \end{itemize} 
+
 	\subsection{Pouvez-vous presenter une situation-problème que vous avez eu a résoudre dans le cadre de cette mission et la façon de dont vous avez procédé?}
-	
+
 		Sans doute les problèmes plus sérieux que me sont arrivé, ils sont arrivé de coté Oceano. 
 		Annuellement, a Buenos Aires a lieux un événement très important, spécialement pour des entreprises comme Oceano. Cet événement, la "Feria del Libro" (la foire du livre). 
 		Dans cet événement on installe chaque année un "STAND" de ventes et diffusion, pendant une extension de un mois. 
-		
+
 		Le développement de ce poste de ventes est probablement le problème le plus hétérogène et aussi le plus intéressante. 
-		
+
 		\paragraph{ Sur le contexte } 
-		
+
 		Oceano est une entreprise editorial. 
-		
+
 		\begin {itemize} 
 		 \item Leur clientes conventionnelles sont des librairies de tout talle.
 		 \item Chaque cliente a une compte de système
 		 \item Oceano ne vendre pas des livres au consommateur final
-		\end{itemize}
-		
+		 \end{itemize} 
+
 		Le système a été développé pour un process très spécifique 
-		\begin{itemize} 
+		 \begin{itemize}  
 		   \item Le système de gestion est pensé pour un process de ventes que divide la vente fait pour les vendeurs de l'enregistrement de la vente
 		   \item Le système de gestion a plusieurs type des utilisateurs avec des roles bien différentes
 		   \item Le système de gestion permit qu'un session ouvert a la foi 
 		   \item Le système de gestion est sensé a imprimer des donnes sur des factures vides, avec un format spécifique, avec une technologie d'impression particulier
 		   \item Le système de gestion est déployé sur un réseaux privé, isolé des access internet
 		   \item Le système de gestion travaille sur une base de données centralise
-		\end{itemize} 
-		
+		 \end{itemize}  
+
 		Cet nouvelle configuration present plein des problématiques fonctionnelles, opérationnelles et de infrastructure  que n'existent pas le reste de l'année a dire: 
-		
+
 		\paragraph{Infrastructure}
 		\begin {itemize} 
 			\item Le bâtiment ou se déroule l'événement n'offre pas aucun service d'access a internet suffisamment stable, sécurisé et fiable
@@ -262,13 +315,13 @@ Chaque un de ces équipes m'a rendu différent relation humaines et différent r
 			\item Le poste doit être independent 
 			\item Les mouvementes du système doivent être visible pour tous les utilisateurs
 		\end {itemize}		
-		
+
 		
 		
 	   \paragraph{La solution apporté} pour le problème a demandé beaucoup des efforts et la misse en marche d'une series de démarrages pour mettre en place le point de vente à la foire.
-	   
+
 	       Cette solution a deux axes principaux que je vais présenter et développer ci-dessous
-	   
+
 	  	        
 		\paragraph{Axe I: Infrastructure}
 			Etant donné que le système de gestion impose l'utilisation d'une base de données centralisée comme restriction, et que cette base de données ne peut pas être consultée de manière fiable via l'infrastructure réseau fournie par le site,
@@ -277,7 +330,7 @@ La solution la plus efficace et la moins coûteuse est l'installation et la mise
 Cette solution amène avec elle le problème de la synchronisation de la base de données du poste avec la base de données utilisée par le système général de l'entreprise. Ce problème est partiellement résolu dans l'axe de développement logiciel.
 
 Enfin, pour améliorer la réponse du système de gestion et protéger les informations confidentielles de nos clients, nous avons décidé d'utiliser une version réduite de la base de données productive, qui contient uniquement les données nécessaires pour les ventes dans cette position, sans tenir compte des données clients , ventes, factures, chiffres d'affaires, etc.
-	
+
 		\paragraph{Axe II: Développement de software}	
 Étant donné que les bons de commande, les factures et les mouvements de stock doivent être reflétés afin de respecter les processus de vente et ne pas nuire au fonctionnement du système, j'ai développé un module de vente qui génère et traite la commande, la facturation et livraison de produits en même temps.
 Le module inclut également la fonctionnalité d'impression des factures dans les imprimantes fiscales et le lecteur de codes-barres avec une détection ISBN de 10 et 13 caractères.
@@ -286,10 +339,10 @@ Enfin, pour résoudre le problème de la synchronisation des factures, des vente
 La liste suivante détaille les tâches effectuées au cours du développement nécessaire.
 
 	\subsection {Connaissances mobilisées dans cette mission }
-			
-	\begin{itemize} 				
+
+	 \begin{itemize}  				
 			\item Technologiques 
-					\begin{itemize}
+					 \begin{itemize} 
 						\item Architecture et conception de logiciel 
 						\item Maintenance de logiciel existente
 						\item Plusieurs langages de programmation (java, javascript, action script, flex, visual basic, C\# .Net, groovy, dolphin smalltalk, php, sql, t-sql)
@@ -299,20 +352,20 @@ La liste suivante détaille les tâches effectuées au cours du développement n
 						\item Administration basic des serveurs de réseaux (windows et linux)
 					\end {itemize}
 			\item Processus \& Methodologies 
-					\begin{itemize}
+					 \begin{itemize} 
 						\item Processus de ventes en gros et au particuliers 
 						\item Processus de gestion de stocks 
 						\item Methodologies agiles (planification) 
 						\item Test driven development et Domain driven development
 					\end {itemize}
 			\item  Humains \& Sociaux  
-				\begin{itemize}
+				 \begin{itemize} 
 						\item La entrevue (avec des utilisateurs experts)
 						\item Relation avec des clients
 					\end {itemize}
 
-		\end{itemize}
-		
+		 \end{itemize} 
+
 
 
 %----------------------------------------------------------------------------------------
@@ -340,13 +393,13 @@ La principale méthode d'organisation du travail était Scrum (Scrum-JIRA) sprin
 
 
 \subsection{Responsabilités}
-	
+
 	
 \begin{table}[!htbp]
 \label{my-label}
 \begin{tabular}{|l|l|l|l|l}
 \cline{1-4}
-   & Descriptif des tâches &  \% & Niveau de Responsabilité \footnotemark  &  \\ \cline{1-4}  
+   & Descriptif des \DIFdelbeginFL \DIFdelFL{taches }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{tâches }\DIFaddendFL &  \% & Niveau de Responsabilité \footnotemark  &  \\ \cline{1-4}  
 A & Concepcion et développement de nouvelles fonctionnalités & 2 & 3 & \\ \cline {1-4}
 B & Reproduction et résolution des bugs & 1 & 3 & \\ \cline {1-4}
 C & Mise en œuvre des tests unitaires & 4 & 2 & \\ \cline {1-4}
@@ -355,43 +408,43 @@ C & Mise en œuvre des tests unitaires & 4 & 2 & \\ \cline {1-4}
 \end{table}
 
 La importancia de las tareas es ambigua. Para la empresa, sin duda la importancia percibida es la de A, B y C. Por mi parte, como persona experimentada en projectos de diferentes calibres, pienso que la importancia estratégica en pos de un producto confiable, es C, B y A.
- 
+
 
 \footnotetext{
 Niveau de responsabilité
-\begin{enumerate} 
+ \begin{enumerate}  
 	\item de l'application de consignes ou de procédures
 	\item de l'amélioration ou de l'optimisation de solutions ou de propositions
 	\item de la conception de programmes ou de la définition de cahiers des charges 
 	\item de la définition d'orientations ou de stratégies
-\end{enumerate}
+ \end{enumerate} 
 }
 \subsection{Relations humaines}
-	
+
 	
 	Pendant mon séjour à Ericsson je n'ai pas eu des employés a charge, et bien que les relations hiérarchiques sont assez complexes, le travail de développement quotidien était plus rapide et plus organique que hiérarchique.
 
 	\subsubsection {Relations hiérarchiques}
-		\begin{enumerate}
+		 \begin{enumerate} 
 		\item \textbf{De qui recevez-vous vos objectifs, vos instructions ?}
 			Le scrum master de mon equipe, hebdomadairement, a travers la methodology Scrum (Scrum-Jira)
 		\item \textbf{Sous quelle (s) forme (s) ?}
-			Des tâches de travaille sur le système de planification (JIRA) 
+			Des \DIFdelbegin \DIFdel{taches }\DIFdelend \DIFaddbegin \DIFadd{tâches }\DIFaddend de travaille sur le système de planification (JIRA) 
 		\item \textbf{Qui évalue votre travail ?}
 			Le responsable de développement de mon equipe et le scrum master de mon equipe.
 		\item  \textbf{Eventuellement à qui donnez-vous des objectifs. des instructions, des consignes ?}
 			Je n'ai pas eu des personnes a charge 
-		\end{enumerate}
+		 \end{enumerate} 
 
 
 	\subsubsection {Relations horizontales}
-	\begin{enumerate}
+	 \begin{enumerate} 
 		\item \textbf{ Avec quel (s) service (s) internes êtes-vous en relation pour l'exécution de cette mission ?}
 			Avec la partie de qualité et experts de mon equipe
 		\item \textbf{Sous quelle (s) forme (s) ?}
 			Sous la forme de reunion informel et des discussions sur le système de gestion de projet. 
 	\end {enumerate}	
-	\begin{enumerate}
+	 \begin{enumerate} 
 		\item \textbf{ Avec quel (s) service (s) internes êtes-vous en relation pour l'exécution de cette mission ?}
 			Les autres equipes de développement qui utilisent les memes dependences logiciel que nous. 
 		\item \textbf{Sous quelle (s) forme (s) ?}
@@ -400,19 +453,19 @@ Niveau de responsabilité
 
 	\subsubsection {Relations extérieures}
 		J'ai pas eu de relation avec des parties extérieures dans cette mission 
-		
+
 			
 \subsection{Décrivez les principales qualités que vous avez a mobiliser dans cette mission}
-	
-		\begin{itemize} 				
+
+		 \begin{itemize}  				
 			\item \textbf{Travaille en equipe} \newline
 				La taille de projet et le fait d'avoir des equipes multidisciplinaires ont fomente une amelioration tres important dans ma capacite de travaille en equipe. 
 			\item \textbf{Methodologie} \newline
 				Ericsson est de tous les entreprise ou J'ai travaille, la plus forte en application de méthodologie, On a réussie a suivre un process Scrum de manual pendant tout le temps que J'ai passé pour cette entreprise.  
 			\item \textbf{Responsabilite  } \newline
-				La definition des tâches especifiques et des areas de responsabilité aussi especifiques a chaque un des membres  d'equipe, m'ai aidé a meilleure comprendre les expectatives sur moi de mon equipe, et comprendre en détaille comment chaque de mes decisions affectent au rest.  
-		\end{itemize}
-		
+				La definition des \DIFdelbegin \DIFdel{taches }\DIFdelend \DIFaddbegin \DIFadd{tâches }\DIFaddend especifiques et des areas de responsabilité aussi especifiques a chaque un des membres  d'equipe, m'ai aidé a meilleure comprendre les expectatives sur moi de mon equipe, et comprendre en détaille comment chaque de mes decisions affectent au rest.  
+		 \end{itemize} 
+
 \subsection{Pouvez-vous presenter une situation-problème que vous avez eu a résoudre dans le cadre de cette mission et la façon de dont vous avez procédé?}
 
 	Pendant mon court séjour chez Ericsson, je pense avoir eu deux gros problèmes à résoudre, un technique, l'inclusion de filtres SIG définis par l'utilisateur, et un autre technique et humain, ainsi que l'inclusion de tests unitaires sur les projets et la culture d'équipe.
@@ -444,24 +497,24 @@ Quand je quitte ma position, nous atteignons une couverture de code de 14 \%. Un
 \paragraph {L'évaluation de TDD} comme solution aux problèmes d'intégration est difficile à faire mais pas impossible, même lorsque l'impact de cette méthodologie adoptée par une seule équipe, parmi 4 équipes travaillant sur les mêmes bibliothèques de base, est plus faible. Au cours de ma deuxième et dernière phase d'intégration et de diffusion, nous avons pu découvrir de mauvaises modifications apportées dans différentes bibliothèques modifiées par d'autres équipements, inertes pour leurs solutions et nuisibles pour nos projets.
 
 \subsection {Connaissances mobilisées dans cette mission }
-	
+
 
 		
-	\begin{itemize} 				
+	 \begin{itemize}  				
 			\item Technologiques 
-					\begin{itemize}
+					 \begin{itemize} 
 						\item Développement de logiciel type SIG (Système d'information géographique)
 						\item Développement et maintenance des applications JMI (C++, Java) 
 						\item Utilisation de big data, Hadoop + Hive, aver des queries type SQL
 						\item Utilisation de system de gestion de projets Jira
 					\end {itemize}
 			\item Processus \& Methodologies 
-					\begin{itemize}
+					 \begin{itemize} 
 						\item Scrum Jira
 						\item XP programming techniques
 					\end {itemize}
-		\end{itemize}
-		
+		 \end{itemize} 
+
 
 
 %----------------------------------------------------------------------------------------
@@ -472,14 +525,14 @@ Quand je quitte ma position, nous atteignons une couverture de code de 14 \%. Un
 \section{Fiche de Mission III - INRIA }
 
 	L'Institute National de Research en Informatique et Automatique (en plus INRIA), est un Institute de recherche tres reconnue, leader français et européen dans la recherche et la transfert technologique, avec des institutes partout la France.
-	
+
          Pendant les trois années passées chez Inria Lille, dans l'équipe InriaTech (démarrage de Inria en conjoint la region de Nord-Pas-Calais, et maintenant Hauts-de-France) ,   Je m'ai développé comme Ingénieur Transfert Technologique. 
-         
+
     	InriaTech est un equipe partie de deux differents departements: Service Transfert pour l'Innovation et Partenariats et Service Expérimentation et Développement, pour extension, notre equipe est aussi divise en deux parts: Ingénierie et Officier de partenariat.   
-	
+
 	  
 	Les officiers de partenariat ont la responsabilité de chercher des partenaires industrielles. Les ingénieurs  ont la responsabilité de développer des prototypes sur besoin des partenaires industrielles et possibilités des equipes de recherche.
-	
+
 	\subsection{Responsabilités}
 
 
@@ -487,7 +540,7 @@ Quand je quitte ma position, nous atteignons une couverture de code de 14 \%. Un
 \label{my-label}
 \begin{tabular}{|lp{12cm}|l|l|l|l}
 \cline{1-4}
-   & Descriptif des tâches &  \% & Niveau de Responsabilité \footnotemark &  \\ \cline{1-4}
+   & Descriptif des \DIFdelbeginFL \DIFdelFL{taches }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{tâches }\DIFaddendFL &  \% & Niveau de Responsabilité \footnotemark &  \\ \cline{1-4}
  A& Effectuer de la recherche et du d\'{e}veloppement li\'{e}s \`a des contrats de recherche bilat\'{e}raux avec des entreprises, en particulier des PME  & 60\% &   1 2 3 \textbf{4} &  \\ \cline{1-4}
  B&  Proc\'{e}der \`a la maturation et  a  l'adaptation aux besoins des entreprises, de technologies d\'{e}tect\'{e}es dans les \'{e}quipes de recherche  & 30\% &    1 2 \textbf{3} 4 &  \\ \cline{1-4}
  C&  Participer  \`a  des op\'{e}rations de pr\'{e}sentation de l'offre technologique Inria.  &  10\%&   1  \textbf{2} 3 4 &  \\ \cline{1-4}
@@ -500,19 +553,19 @@ L'ordre d'importance de ces tâches, du point de vue de la gestion de l'INRIA, e
 
 \footnotetext{
 Niveau de responsabilité
-\begin{enumerate} 
+ \begin{enumerate}  
 	\item de l'application de consignes ou de procédures
 	\item de l'amélioration ou de l'optimisation de solutions ou de propositions
 	\item de la conception de programmes ou de la définition de cahiers des charges 
 	\item de la définition d'orientations ou de stratégies
-\end{enumerate}
+ \end{enumerate} 
 }
 
 	\subsection{Relations humaines}
 	Étant donné qu'Inriatech est une équipe de service d'ingénierie qui travaille de manière transversale, mais qui vise à générer des affinités entre chaque membre et une série d'équipes de recherche, la classification des relations humaines devient compliquée. La ligne entre les relations horizontales, hiérarchiques et externes est très diffuse.
-	
+
 		\subsubsection {Relations hiérarchiques}
-		\begin{enumerate}
+		 \begin{enumerate} 
 			\item \textbf{De qui recevez-vous vos objectifs, vos instructions ?}
 				Les objectifs sont donnes par le résultat des reunions avec des clients et equipes de recherche, en relation aux besoins des clients, possibilités du travaille de recherche et alignée avec la vision technologique de chaque equipe et la stratégie de développement accorde.
 		\item \textbf{Sous quelle (s) forme (s) ?}
@@ -522,17 +575,17 @@ Niveau de responsabilité
 				Les évaluateurs de mon travaille sont, le responsable du partenaire industriel, le directeur du equipe de recherche lieu au projet, le directeur du Service Transfert pour l'Innovation et Partenariats et le directeur du Service Expérimentation et Développement. 
 		\item  \textbf{Eventuellement à qui donnez-vous des objectifs. des instructions, des consignes ?}
 			Je n'ai pas des personnes a charge 
-		\end{enumerate}
+		 \end{enumerate} 
 
 	\subsubsection {Relations horizontales } 
-	
-	\begin{enumerate}
+
+	 \begin{enumerate} 
 		\item \textbf{ Avec quel (s) service (s) internes êtes-vous en relation pour l'exécution de cette mission ?}
 			Les officiers de partenariat  
 		\item \textbf{Sous quelle (s) forme (s) ?}
 			Sous la forme de reunion formel et cahier des charges. 
 	\end {enumerate}
-	\begin{enumerate}
+	 \begin{enumerate} 
 		\item \textbf{ Avec quel (s) service (s) internes êtes-vous en relation pour l'exécution de cette mission ?}
 			Les membres de chaque equipe de recherche lieu avec chaque contrat.
 		\item \textbf{Sous quelle (s) forme (s) ?}
@@ -540,7 +593,7 @@ Niveau de responsabilité
 	\end {enumerate}	
 
 	\subsubsection {Relations extérieures}
-		\begin{enumerate}
+		 \begin{enumerate} 
 		\item \textbf{Avec quel (s) partenaire (s) êtes-vous en relation pour l'exécution de cette mission ?}
 			Chaque partenaire industriel de chaque contrat de transfert technologique 
 		\item \textbf{ Sous quelle (s) forme (s) ?}
@@ -551,33 +604,33 @@ Niveau de responsabilité
 
 
 	\subsection{Décrivez les principales qualités que vous avez a mobiliser dans cette mission}
-			
-			\begin{itemize} 				
+
+			 \begin{itemize}  				
 			\item \textbf{Autonomie} \newline
-				Le fait de passer beaucoup de temps chez notre client principal, et être la seule personne que comprendre le besoin de la entreprise et au meme temps le cout technique de chaque tâche, m'ai force a être moi meme qui define les priorités. 
+				Le fait de passer beaucoup de temps chez notre client principal, et être la seule personne que comprendre le besoin de la entreprise et au meme temps le cout technique de chaque \DIFdelbegin \DIFdel{tache}\DIFdelend \DIFaddbegin \DIFadd{tâche}\DIFaddend , m'ai force a être moi meme qui define les priorités. 
 			\item \textbf{Apprentissage constant } \newline
 				L'environnement de la recherche est fascinant. Chez INRIA Lille on a plusieurs equipes de recherche avec des domaines diamétralement différentes. Apres avoir travaille avec quatre equipes différentes avec des domaines si différentes comme réseaux de internet des objets, control adaptative applique aux robots,  interfaces de communication homme-machine non conventionnelles, et des implémentation de langages de programmation, J'ai été pusse a apprendre et re-apprendre beaucoup contenu. 
 			\item \textbf{Critique constructive} \newline
 				L'ambiance de la recherche, même quand est compétitive est aussi tres autocritique. Etre constructivement critique n'est pas seulement bienvenue, sinon aussi nécessaire.
 			\item \textbf{Negotiation et prise de décision } \newline
 				Etant la personne au milieu entre l'equipe de recherche, avec ces ambitions et un partenaire industriel avec des besoins techniques spécifiques, m'a mit dans une situation de négociation  et prise de décision. 
-		\end{itemize}
+		 \end{itemize} 
 
 		
 	\subsection{Pouvez-vous presenter une situation-problème que vous avez eu a résoudre dans le cadre de cette mission et la façon de dont vous avez procédé?}
-	
+
 		Comme exemple de situation a résoudre, J'amène mon première travaille a InriaTech. Il est pas le problème le plus compliqué, mais il est très claire et représentative de mon travaille avec les equipes de recherche .  
-		
+
 		 Ce première travaille a été une travaille de mis a jour de logiciel développe pour des chercheurs mathématiciens / électroniques, pour être appli sur le domaine de la robotique. 
 		J'avais deja été expose au robotique pendant mon temps de travaille a L'Ecole des Mines de Douai, mais, par contre J'ai été jamais expose a ce genre de algorithme, a ce partie du développement robotique ou aux genre des équations différentielles utilise pour la résolution des problématiques . 
-		
+
 		Ma misión d'abord a été comprendre la solution propose pour le doctorat, et la faire maturer pour pouvoir l'offrir comme possible solution.  
-		
+
 		Le code développé pour le thésard  a été impossible a comprendre, étant lui un expert mathématicien, mais pas nécessairement expert logiciel, et pour son stratégie  de développement de maintenir les nomenclatures comme dans son article. (Un article mathématique respecte de conventions que sont tres bons pour le développement mathématicien, mais nocives pour le développement logiciel). 
-		
+
 		Mon stratégie pour arriver a comprendre le plus vite et faire mon travaille au même temps a été l'application des techniques et méthodologies de la industrialisation de logiciel, en deux phases: 
-		
-		\begin{itemize}
+
+		 \begin{itemize} 
 				\item Versionner le code, avec un système des versions.
 				\item Modifier le code pour le faire fonctionner en mode librairie 
 				\item Développer des test au boîte noire
@@ -586,8 +639,8 @@ Niveau de responsabilité
 		\end {itemize}
 
 		Une fois J'ai amélioré l'estructure du projet et, parallèlement J'ai lu l'article et appris les basiques du méthode, J'ai passe au deuxième phase 
-	
-		\begin{itemize}
+
+		 \begin{itemize} 
 				\item Faire des tests sur propriétés mathématiques des résultats   
 				\item Transformer le code en essayent de avoir une cohésion sémantique 
 				\item Adapter et utiliser dans des expérimentations.
@@ -595,10 +648,10 @@ Niveau de responsabilité
 
 	
 	\subsection {Connaissances mobilisées dans cette mission }
-	
-	\begin{itemize} 				
+
+	 \begin{itemize}  				
 			\item Algorithmique et conception 
-					\begin{itemize}
+					 \begin{itemize} 
 						\item Architecture logiciel robotique 
 						\item Développement des algorithmes de Path planning local pour robots differentials 
 						\item Implémentation des réseaux  multi-saut pour objets connectés 
@@ -608,7 +661,7 @@ Niveau de responsabilité
 						\item Administration basic des serveurs de réseaux (windows et linux)
 					\end {itemize}
 			\item Technologique
-					\begin{itemize}
+					 \begin{itemize} 
 						\item Middleware de développement robotique, ROS 
 						\item Systeme de exploitation pour IOT, RIOT 
 						\item Language de développement de smart contracts Solidity 
@@ -617,12 +670,12 @@ Niveau de responsabilité
 						\item Plusieurs langages de développement Pharo, C, C++, Java, Python, Javascript, Scala
 					\end {itemize}
 			\item  Recherche 
-				\begin{itemize}
+				 \begin{itemize} 
 						\item Lecture des articles scientifiques 
 						\item Ecriture des articles scientifiques (avec deux publications comme auteur principal) 
 				\end {itemize}
-		\end{itemize}
-		
+		 \end{itemize} 
+
 
 
 		
