@@ -1,0 +1,91 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.9)  28 FEB 2019 11:43
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**motivation_inria.tex
+(./motivation_inria.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/letter.cls
+Document Class: letter 2014/09/29 v1.2z Standard LaTeX document class
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\longindentation=\dimen102
+\indentedwidth=\dimen103
+\labelcount=\count80
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/newcent.sty
+Package: newcent 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+No file motivation_inria.aux.
+\openout1 = `motivation_inria.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Try loading font information for OT1+pnc on input line 36.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1pnc.fd
+File: ot1pnc.fd 2001/06/04 font definitions for OT1/pnc.
+)
+LaTeX Font Info:    Font shape `OT1/pnc/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/pnc/b/n' tried instead on input line 86.
+
+Overfull \hbox (32.99312pt too wide) in paragraph at lines 85--90
+\OT1/pnc/b/n/10.95 method-olo-gies\OT1/pnc/m/n/10.95 : Ex-treme pro-gram-ming, 
+Scrum, Kan-ban, TDD, BDD, DDD; plusieurs \OT1/pnc/b/n/10.95 paradigmes\OT1/pnc/
+m/n/10.95 :
+ []
+
+
+Overfull \hbox (0.87549pt too wide) in paragraph at lines 93--94
+[]\OT1/pnc/m/n/10.95 En par-all[]ele, mon ex-pe-ri-ence acad[]emique en Ar-gen-
+tine, c'est aussi riche et con-siste en \OT1/pnc/b/n/10.95 etudes\OT1/pnc/m/n/1
+0.95 :
+ []
+
+[1
+
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 113.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 113.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 113.
+
+[2] (./motivation_inria.aux) ) 
+Here is how much of TeX's memory you used:
+ 226 strings out of 492649
+ 2891 string characters out of 6129622
+ 64026 words of memory out of 5000000
+ 4176 multiletter control sequences out of 15000+600000
+ 9447 words of font info for 28 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 21i,6n,19p,869b,217s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvi
+ps/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/urw/ncntrsbk/unc
+b8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb
+>
+Output written on motivation_inria.pdf (2 pages, 35080 bytes).
+PDF statistics:
+ 20 PDF objects out of 1000 (max. 8388607)
+ 13 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

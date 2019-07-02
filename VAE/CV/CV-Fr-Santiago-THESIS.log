@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.9)  2 JUL 2019 14:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.9)  28 FEB 2019 11:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"CV-Fr Santiago.tex"
-(./CV-Fr Santiago.tex
+**CV-Fr-Santiago-THESIS.tex
+(./CV-Fr-Santiago-THESIS.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (./resume.cls
@@ -187,8 +187,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip45
 )
-(./CV-Fr Santiago.aux)
-\openout1 = `"CV-Fr Santiago.aux"'.
+(./CV-Fr-Santiago-THESIS.aux)
+\openout1 = `CV-Fr-Santiago-THESIS.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
@@ -253,9 +253,9 @@ LaTeX Info: Redefining \ref on input line 33.
 LaTeX Info: Redefining \pageref on input line 33.
 LaTeX Info: Redefining \nameref on input line 33.
 
-(./CV-Fr Santiago.out) (./CV-Fr Santiago.out)
+(./CV-Fr-Santiago-THESIS.out) (./CV-Fr-Santiago-THESIS.out)
 \@outlinefile=\write3
-\openout3 = `"CV-Fr Santiago.out"'.
+\openout3 = `CV-Fr-Santiago-THESIS.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 33.
@@ -271,66 +271,66 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 33--33
 [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2]
-Overfull \hbox (36.62231pt too wide) in paragraph at lines 190--191
+[2] [3]
+Overfull \hbox (36.62231pt too wide) in paragraph at lines 235--236
 []\OT1/cmr/m/n/10.95 Le pro-jet a ^^Set^^Se pr^^Sesent^^Se en Ro-boShop Pi-com 
 et Vad Conext 2013 ( http://car.mines-douai.fr/2013/11/roboshop-
  []
 
-[3] [4]
-Overfull \hbox (20.12633pt too wide) in paragraph at lines 257--258
+[4] [5]
+Overfull \hbox (20.12633pt too wide) in paragraph at lines 302--303
 \OT1/cmr/m/n/10.95 Ac-cess (pris en charge jusqu'en 2004). R^^Sef^^Serence de c
 on-tact : Ger-ardo Grimaldi grimaldi.gerardo@gmail.com 
  []
 
 
-Overfull \hbox (41.6691pt too wide) in paragraph at lines 258--259
+Overfull \hbox (41.6691pt too wide) in paragraph at lines 303--304
 []\OT1/cmr/m/n/10.95 Juillet 2009 to Mars 2010 - SFAP cer-ti-fi-ca-tion et des 
 cours syst^^Reme de ges-tion - PHP ( http://www.facpce.org.ar/)
  []
 
-[5]
-Overfull \hbox (77.16779pt too wide) in paragraph at lines 314--315
+[6]
+Overfull \hbox (77.16779pt too wide) in paragraph at lines 359--360
 []\OT1/cmr/m/n/10.95 Type inf^^Serence et l'analyse ap-pel graphe (Kwisatz Hade
 r-ach) - http://ss3.gemstone.com/ss/ConcreteTypeInference.html 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 329.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 374.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 329.
- [6] [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 442.
- [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 442.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 374.
+ [7] [8] [9]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 520.
 
-(./CV-Fr Santiago.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 442.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 442.
-Package rerunfilecheck Info: File `"CV-Fr Santiago".out' has not changed.
+[10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 520.
+ (./CV-Fr-Santiago-THESIS.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 520.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 520.
+Package rerunfilecheck Info: File `CV-Fr-Santiago-THESIS.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 442.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 520.
  ) 
 Here is how much of TeX's memory you used:
- 4814 strings out of 492649
- 72167 string characters out of 6129622
+ 4816 strings out of 492649
+ 72269 string characters out of 6129622
  170906 words of memory out of 5000000
  8687 multiletter control sequences out of 15000+600000
  7639 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,7n,21p,556b,546s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,7n,21p,561b,508s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
 usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "CV-Fr Santiago.pdf" (8 pages, 100914 bytes).
+Output written on CV-Fr-Santiago-THESIS.pdf (10 pages, 104654 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
+ 73 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
