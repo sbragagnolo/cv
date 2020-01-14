@@ -1,3 +1,6 @@
+*_*.DS_Storr
+*\.DS_Store
+*\*_*.DS_Store
 .DS_Store\
 ## Core latex/pdflatex auxiliary files:\
 *.aux\
